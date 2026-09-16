@@ -275,6 +275,10 @@ footer{text-align:center;padding:72px 20px calc(120px + var(--safe-b));color:var
 footer .emblem{width:120px;margin:0 auto;color:var(--gold)}
 footer p{margin:14px 0 0;font-style:italic;font-size:20px;color:var(--moon)}
 footer small{display:block;margin-top:18px;font:400 12px/1.6 var(--sans)}
+footer .sign{display:flex;flex-direction:column;align-items:center;gap:8px;width:max-content;margin:30px auto 0;padding:18px 18px 0;border-top:1px solid rgba(199,162,90,.25);font:500 10px/1 var(--sans);letter-spacing:.32em;text-transform:uppercase;color:var(--moon-soft);text-decoration:none}
+footer .sign span{margin-right:-.32em}
+footer .sign b{font:italic 400 24px/1 var(--serif);font-variant-numeric:lining-nums;letter-spacing:.02em;text-transform:none;color:var(--gold);transition:color .3s}
+footer .sign:hover b{color:var(--gold-bright)}
 
 /* ---------- order bar ---------- */
 .obar{position:fixed;left:12px;right:12px;bottom:calc(12px + var(--safe-b));z-index:45;max-width:560px;margin:0 auto;display:flex;align-items:center;gap:12px;padding:10px 10px 10px 16px;border-radius:20px;background:var(--ink);color:var(--paper);box-shadow:0 18px 40px -12px rgba(0,0,0,.55),0 0 0 1px rgba(199,162,90,.35);transform:translateY(150%);transition:transform .55s var(--ease-spring)}
@@ -747,6 +751,7 @@ footer .emblem{width:84px}
       <span class="emblem"></span>
       <p data-i18n="foot"></p>
       <small data-i18n-html="footSmall"></small>
+      <a class="sign" href="https://github.com/v1tooR" target="_blank" rel="noopener"><span data-i18n="sign"></span><b>v1tooR</b></a>
     </footer>
   </section>
 </main>
@@ -973,7 +978,8 @@ const T = {
     hoursNote:"Não fazemos reservas: o atendimento é por ordem de chegada. Horários podem mudar em feriados e alta temporada.",
     whereT:"Onde estamos", route:"Como chegar",
     foot:"Sans souci: sem preocupações.",
-    footSmall:"Sans Souci Café e Confeitaria · Campos do Jordão – SP<br>Cardápio digital: escolha aqui, peça no balcão."
+    footSmall:"Sans Souci Café e Confeitaria · Campos do Jordão – SP<br>Cardápio digital: escolha aqui, peça no balcão.",
+    sign:"Desenvolvido por"
   },
   en:{
     kicker:"Café & Pâtisserie", tagline:"Sans souci, <em>without a care.</em>",
@@ -1011,7 +1017,8 @@ const T = {
     hoursNote:"No reservations: first come, first served. Hours may change on holidays and in high season.",
     whereT:"Find us", route:"Get directions",
     foot:"Sans souci: without a care.",
-    footSmall:"Sans Souci Café e Confeitaria · Campos do Jordão – SP<br>Digital menu: choose here, order at the counter."
+    footSmall:"Sans Souci Café e Confeitaria · Campos do Jordão – SP<br>Digital menu: choose here, order at the counter.",
+    sign:"Made by"
   }
 };
 function fmtHour(h){return h===12?"12 pm":h>12?`${h-12} pm`:`${h} am`}
