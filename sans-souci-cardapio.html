@@ -1,0 +1,1578 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sans Souci · Cardápio</title>
+<meta name="description" content="Cardápio digital do Sans Souci Café e Confeitaria, em Campos do Jordão. Escolha, monte sua lista e peça no balcão.">
+<meta name="theme-color" content="#0e1814">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@400;500;600&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+<style>
+:root{
+  --emblem: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MzIgNjMyIj48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCw2MzIuMDAwMDAwKSBzY2FsZSgwLjEwMDAwMCwtMC4xMDAwMDApIiBmaWxsPSIjMDAwMDAwIiBzdHJva2U9Im5vbmUiPiA8cGF0aCBkPSJNNDcwNSA2MTY2IGMtMTU4IC04MSAtMTg5IC0xMzQgLTIwNCAtMzUxIC0xMyAtMjAxIC0zIC0yMTkgMTI3IC0yMzIgMTA0IC0xMCAxMjQgLTQwIDExOCAtMTc3IC02IC0xMzYgLTMxIC0xNjUgLTE3MSAtMjAxIC03NCAtMTkgLTgwIC0yMyAtODMgLTQ4IC0zIC0yMiAyIC0yOSAyNSAtMzggNDMgLTE2IDI0MSA0IDMzNiAzNSA0MyAxNSA5MSAyNiAxMDggMjYgNjEgMCA3OSAzNSA4MCAxNTIgMSA1NyA0IDE0OCA4IDIwMyAxMiAxNjUgLTggMTk1IC0xMzIgMTk1IC02NSAwIC03MSAyIC0xMDMgMzQgLTMzIDMzIC0zNCAzNyAtMzQgMTEwIDAgODggMTQgMTExIDc3IDEyMSA2MiAxMSA3MSAxNSAxMTUgNTEgMjQgMTkgNTEgNDIgNjEgNTAgMTIgMTAgMTcgMjUgMTUgNDcgLTMgMzIgLTMgMzIgLTEwMyAzMiAtNTUgMCAtMTIwIDQgLTE0NSA4IC0zOCA3IC01MyA0IC05NSAtMTd6Ii8+IDxwYXRoIGQ9Ik0zNTg0IDYxNDYgYy0zNSAtMTYgLTEzOCAtOTIgLTE3MSAtMTI3IC0zNCAtMzggLTQwIC02NCAtNDggLTIyNyAtMTAgLTIxMyA0IC0yMzggMTQ1IC0yNTMgOTUgLTEwIDEwMyAtMjMgOTggLTE2NSAtNCAtMTMyIC0xMCAtMTQzIC05OSAtMTc1IC0zMiAtMTIgLTY0IC0yOCAtNzAgLTM1IC02IC04IC0zMSAtMjMgLTU1IC0zNCAtNDUgLTE5IC01MCAtMjYgLTM2IC00NyAxOSAtMzEgNjIgLTM0IDEzNSAtOSA3OCAyNiAyMjcgNTYgMjc3IDU2IDQ3IDAgOTQgMjQgMTIwIDYxIDIzIDMxIDI0IDQ1IDMyIDI0MyAxMSAyNTUgMTYgMjQzIC0xMTkgMjU2IC0xMDQgOSAtMTI3IDE5IC0xNDggNjAgLTE3IDMzIC0yMCAxMjIgLTUgMTUwIDEzIDI0IDg3IDY4IDEzNyA4MiA0NyAxMiAxNDMgMTAzIDE0MyAxMzQgMCAzOSAtMjQgNDkgLTg0IDM0IC00MCAtOSAtNjUgLTEwIC0xMDUgLTEgLTY3IDE0IC0xMDkgMTMgLTE0NyAtM3oiLz4gPHBhdGggZD0iTTU1MzAgNjA3OSBjLTI0IC0xMSAtNTggLTMwIC03NSAtNDMgLTE2IC0xMyAtNDcgLTI5IC02OSAtMzYgLTQ4IC0xNSAtMTE1IC03NCAtMTMyIC0xMTYgLTEyIC0yOSAtMzcgLTIxMyAtNjMgLTQ1OSAtMTQgLTEzNCAtNSAtMTYyIDc0IC0yMzQgMzMgLTMxIDk1IC05MSAxMzkgLTEzMyA5MiAtOTIgMTEzIC05NyAxOTIgLTQ2IDI3IDE3IDk2IDYyIDE1NCAxMDAgMTU1IDEwMCAxNTggMTAzIDE3NCAxNjEgNDAgMTQ3IDY1IDI4MyA3MiAzODMgNyAxMjggNCAxMzkgLTY1IDE5OSAtMjUgMjIgLTgyIDc0IC0xMjYgMTE2IC0xNDAgMTM0IC0xODEgMTUxIC0yNzUgMTA4eiBtOTcgLTIxNyBjMTcgLTE1IDUyIC01MSA3OCAtODEgNTUgLTYzIDU1IC02OSAxNCAtMzA2IC0yNiAtMTQ3IC00MSAtMTk0IC03NyAtMjI4IC01MSAtNDkgLTc0IC00NiAtMTM5IDE3IGwtNTggNTUgMiAxMjggYzUgMzQ5IDczIDUwNyAxODAgNDE1eiIvPiA8cGF0aCBkPSJNMjg3NSA2MDc2IGMtMjcgLTEyIC03OCAtNjMgLTE3MSAtMTcwIC00MCAtNDcgLTc2IC00OCAtMTEzIC01IC02MCA3MSAtNjggNzYgLTE0OSA5OCAtMTEwIDI5IC0xMTAgMjkgLTI0NiAtMTI3IC01MSAtNTggLTUzIC02NyAtMzAgLTEwMSAxNSAtMjEgMjEgLTIyIDczIC0xNiA3NyA5IDkwIC02IDEwMiAtMTE2IDUgLTQ2IDE2IC0xMjcgMjQgLTE4MSA4IC01NCAxNSAtMTIyIDE1IC0xNTIgMCAtMTM2IDMxIC0xOTEgMTQ1IC0yNTcgODEgLTQ3IDEzNiAtMzEgMTk1IDU5IDM4IDU3IDM2IDcwIC0xNCA5OCAtNjYgMzcgLTc0IDcxIC03OCAyOTYgLTIgMTYwIDcgMTgyIDExMCAyNjMgMTE5IDk1IDEzMCA4NCAxNDIgLTE1MSAyMCAtMzg4IDMyIC00MzkgMTI1IC01MTggOTIgLTc4IDE2MCAtODcgMjAwIC0yNiAxMiAxOCAzNiAzNSA2MCA0MyAzNiAxMiA0MCAxNyA0MyA1MSA0IDQ1IC03IDYwIC03MCA5MiAtNzggMzkgLTgzIDYyIC0xMDggNDI0IC0xOCAyNzQgLTE5IDI4MCAtNzkgMzI1IC0yNSAxOSAtNTcgNDMgLTcxIDU0IC0zNCAyOCAtNjkgMzMgLTEwNSAxN3oiLz4gPHBhdGggZD0iTTEyNzcgNTk1MCBjLTE2IC01IC04OCAtMTIgLTE2MCAtMTUgLTE5NSAtOSAtMzA1IC0yNCAtMzcyIC01MSAtMzQgLTEzIC04MiAtMzAgLTEwNyAtMzggLTEyMiAtMzYgLTI5NSAtMTgyIC0zMTggLTI2NyAtNDEgLTE1MyAtNDIgLTE1NCAtODIgLTE1NCAtNDUgLTEgLTU3IC0xMSAtNjkgLTYxIC0yMiAtOTYgLTEgLTIzNCA0NSAtMzA0IDE0IC0yMiAyNiAtNDMgMjYgLTQ4IDAgLTMzIDE5OCAtMTg2IDI4OCAtMjIxIDU5IC0yNCAxNTIgLTc5IDIxNSAtMTI3IDg2IC02NSAxMjMgLTE4OSA3NyAtMjUzIC0zNSAtNDcgLTQwIC0xMzQgLTkgLTE2NyA1MyAtNTYgLTM1IC04NiAtMTE1IC0zOSAtMTAwIDU5IC0yNDUgNTIgLTM1OCAtMTYgLTE5MiAtMTE2IC0yNDAgLTI1MCAtMTI4IC0zNjEgODIgLTgzIDEyNSAtNTQgMTAwIDY5IC0xMyA2NyAtMTMgNjcgMTQgOTAgNDMgMzcgOTIgMjUgMTQzIC0zNSA0OSAtNTYgMTI0IC01NCAyMTMgNiAzNSAyMyA2OSA0MiA3NiA0MiA3IDAgMjggMTMgNDYgMjkgMTggMTYgNDkgMzUgNjggNDMgMTkgOCA1NCAzMCA3NyA0OSAyNCAxOSA2OCA1NCA5OSA3OSAxNzIgMTM4IDI1NSAyNTAgMjU0IDM0NCAtMSA4MCAtMjkgMTg5IC01OCAyMjUgLTE2IDIwIC0zNSA0NyAtNDIgNjEgLTE3IDM0IC05NCAxMDcgLTE1NSAxNDggLTU0IDM3IC0yNTEgMTMzIC0zMTIgMTUyIC0yMSA3IC02MyAyOCAtOTMgNDggLTMwIDIwIC03MiA0NyAtOTQgNjEgLTU2IDM3IC0xMjUgMTIwIC0xMzIgMTYwIC0xMyA2NiA0OCAxOTYgMTE1IDI0OCAzNiAyNyAxNzIgNzQgMjE4IDc1IDYyIDAgMTc4IC0zNyAyMjMgLTcyIDc4IC02MCAxMTAgLTY0IDE0OCAtMTggNDcgNTcgMTYzIDE2OCAyMDggMTk5IDM5IDI3IDQ0IDM0IDQ0IDY5IDAgNTUgLTI4IDY5IC05MyA1MHogbS04ODIgLTc4MCBjMTQgLTIyIDI5IC00MCAzNCAtNDAgNSAwIDIyIC0xNCAzOCAtMzEgMTUgLTE3IDQ0IC0zOSA2MyAtNDkgMTkgLTEwIDQ0IC0yOCA1NSAtNDAgMTEgLTEzIDQ4IC0zNSA4MSAtNTAgMzQgLTE2IDY1IC0zNCA2OSAtNDAgNCAtNyAzMyAtMjMgNjMgLTM3IDMxIC0xMyA3MSAtMzggODkgLTU0IDE5IC0xNiAzOCAtMjkgNDMgLTI5IDE1IDAgMTAxIC0xMjAgMTE2IC0xNjMgMzggLTEwOCAtNSAtMjg5IC03MSAtMjk5IC0yMyAtMyAtMjMgLTQgLTUgMTAzIDE3IDk1IC01IDIyMyAtNDEgMjQ5IC0xMiA4IC00MCAzMiAtNjMgNTIgLTIzIDIwIC02NCA0NyAtOTIgNTggLTI3IDEyIC01OCAzMCAtNjkgNDAgLTExIDEwIC00NiAzMCAtNzcgNDUgLTMyIDE0IC01OCAzMCAtNTggMzUgMCA0IC0yMCAyMCAtNDQgMzQgLTI1IDE0IC00NyAzNSAtNTEgNDYgLTMgMTEgLTE2IDI3IC0yOSAzNyAtMTIgMTAgLTMxIDMyIC00MSA0OCAtMTEgMTcgLTMwIDQwIC00MiA1MiAtMjIgMjEgLTMwIDUzIC0xNiA2NiAxMyAxMyAyMyA2IDQ4IC0zM3oiLz4gPHBhdGggZD0iTTE2MDQgNTc2OCBjLTkzIC03NSAtMjk0IC0zMzUgLTI5NCAtMzgxIDAgLTE0IDYgLTQyIDE0IC02MyA3IC0yMiAyMSAtODIgMzAgLTEzNCA5IC01MiAyOCAtMTMxIDQxIC0xNzUgMTQgLTQ0IDI3IC05MyAzMSAtMTEwIDE0IC03NCA1NiAtMTE1IDExNyAtMTE1IDYgMCAzNyAtMTIgNjcgLTI2IDExOSAtNTUgMTg4IC01MiAyMjcgMTAgMzkgNjQgMTE0IDEzNiAxNDAgMTM2IDEzIDAgNDAgLTcgNjEgLTE2IDEwOCAtNDYgMTM3IC00MiAyMjAgMzUgNTAgNDYgNjIgNjMgNjIgODggMCA0MiAtMzMgODEgLTc2IDg5IC02MCAxMSAtODAgMzYgLTExMyAxNDQgLTE3IDU0IC00MCAxNTQgLTUyIDIyMiAtMzIgMTk3IC03NyAyNjkgLTE3NyAyODcgLTMxIDYgLTgyIDE2IC0xMTIgMjIgLTExOSAyNSAtMTQxIDI0IC0xODYgLTEzeiBtMTQ0IC0zMDAgYzc0IC00OCA3NiAtNTMgMTAyIC0yMDkgMTAgLTY1IDI0IC0xMjcgMzAgLTEzOCAyNCAtNDcgLTE5IC0xMjEgLTcyIC0xMjEgLTM4IDAgLTEyMSA3MCAtMTMxIDExMCAtNSAxOSAtMjAgNjkgLTMzIDExMCAtMTMgNDEgLTMxIDExNyAtNDEgMTY5IC0xNyA5MyAtMTcgOTMgNyAxMTMgMzEgMjUgNTcgMTggMTM4IC0zNHoiLz4gPHBhdGggZD0iTTYyNTggNTc2NCBjLTcwIC0zOCAtMTI2IC0xMDAgLTExNCAtMTI5IDMgLTkgMjUgLTI1IDUwIC0zNSA3MCAtMzIgNzEgLTMzIDQ4IC0xNzMgLTEyIC02NyAtMzUgLTE2MSAtNTIgLTIwNyAtNTIgLTE0MSAtNDkgLTI3NSA3IC0zMjEgOCAtNyAzMCAtMzYgNDggLTY0IDE4IC0yNyA0OCAtNjggNjcgLTkwIDQzIC00OCA3MyAtNTAgMjE1IC05IDExNyAzMyAxNDUgMjggMTg3IC0zNSA0MyAtNjUgNzkgLTgzIDE1MSAtNzggNjQgNSAxMjIgMjggMTMyIDUzIDMgOCAtNCAzNyAtMTYgNjQgLTM0IDgwIC0yMCAyNDUgMzIgMzcwIDkgMTkgMjAgNjQgMjYgMTAwIDYgMzYgMTkgOTUgMjggMTMyIDI0IDk3IC03IDE4MiAtODYgMjM1IC00OSAzMyAtMTQ4IDMzIC0xODggMCAtMTUgLTEzIC01MCAtMzggLTc2IC01NiAtNjggLTQ2IC02NCAtNzUgMTYgLTExNCA0MCAtMTkgNjEgLTM3IDY4IC01NSAxNCAtMzYgLTQgLTEzNCAtNDIgLTIzMCAtMTYgLTQxIC0yOSAtODEgLTI5IC05MCAtMSAtMzYgLTM5IC0xMDEgLTY5IC0xMTcgLTg5IC00NSAtMTYwIC0zNyAtMjExIDI3IC01NiA3MCAtNTggMTM3IC02IDI2NCAxMyAzMyAzMiAxMDAgNDEgMTUwIDEwIDQ5IDI4IDExMCA0MSAxMzYgNDAgNzkgMzQgMTI1IC0yNiAxOTUgLTEwNyAxMjIgLTEzOCAxMzIgLTI0MiA3N3oiLz4gPHBhdGggZD0iTTc0MjMgNTIzNiBjLTk2IC0zMSAtMTI4IC02NyAtMTU0IC0xNzEgLTcgLTI3IC0yNSAtNzcgLTQxIC0xMTAgLTE1IC0zMyAtMjggLTcyIC0yOCAtODYgMCAtMTUgLTE0IC01MyAtMzAgLTg0IC0zMiAtNjEgLTcwIC0xOTMgLTcwIC0yNDQgMCAtNTMgMTg3IC0yNTYgMjQ2IC0yNjcgNTMgLTEwIDIzMiA1MSAyNDAgODEgOSAzNiAtMTEgNjEgLTg1IDEwNCAtNzAgNDEgLTgxIDU0IC04MSA5NiAwIDM5IDQ3IDIwMyA2OSAyMzggMTEgMTcgMjUgNTUgMzIgODIgMjcgMTEzIDYwIDE1MCAxNDUgMTY2IDY4IDEyIDg0IDIzIDg0IDUzIDAgMzEgLTMxIDU3IC0xMjcgMTA0IC05NSA0NyAtMTQzIDU2IC0yMDAgMzh6Ii8+IDxwYXRoIGQ9Ik04MDgyIDUwOTggYy03IC03IC0xMiAtMzEgLTEyIC01NSAwIC03OCA2NSAtMTA4IDExMyAtNTEgMjIgMjYgMjIgNDUgLTMgODYgLTIxIDM0IC03MyA0NSAtOTggMjB6Ii8+IDxwYXRoIGQ9Ik0zOTcwIDUwMjkgYy00MSAtNSAtMTEzIC0yMCAtMTYwIC0zMyAtNDcgLTE0IC0xMTIgLTMyIC0xNDQgLTQxIC0zMiAtOSAtNjggLTIzIC04MCAtMzAgLTEyIC04IC00OCAtMjQgLTgxIC0zNiAtMzMgLTEyIC03MSAtMzAgLTg1IC0zOSAtMTQgLTEwIC00OCAtMjkgLTc2IC00MyAtNzAgLTM1IC0xMzUgLTgwIC0yMjIgLTE1MiAtNDAgLTMzIC04OSAtNzIgLTEwOSAtODggLTIwIC0xNSAtNDcgLTQzIC02MCAtNjIgLTEzIC0xOSAtMjggLTM1IC0zMiAtMzUgLTExIDAgLTE3OCAtMTkyIC0yMDYgLTIzNSAtMTEgLTE4IC0zMyAtNTMgLTUwIC03OCAtMTYgLTI1IC0zOSAtNjAgLTUwIC03OCAtMTEgLTE5IC0zOSAtNjUgLTYyIC0xMDQgLTI0IC0zOCAtNTIgLTkwIC02MyAtMTE1IC0xMiAtMjUgLTM5IC04MCAtNjAgLTEyMyAtMjIgLTQzIC00MCAtODggLTQwIC0xMDAgMCAtMTIgLTEzIC01MCAtMzAgLTg1IC0xNiAtMzUgLTM5IC0xMDcgLTQ5IC0xNjAgLTExIC01MyAtMjkgLTEyMyAtNDAgLTE1NiAtNDQgLTEyNSAtNzQgLTUxMiAtNjEgLTc2OSAxMyAtMjM5IDM1IC00MjMgNjAgLTQ5OCAxMiAtMzMgMzAgLTEwNiA0MSAtMTYyIDExIC01NiAzMyAtMTMxIDQ4IC0xNjcgMTYgLTM2IDMyIC03OCAzNSAtOTUgNyAtMzAgODMgLTIwNSAxMTIgLTI2MCA5IC0xNiAyOCAtNTIgNDIgLTgwIDk1IC0xODggMzAyIC00NDAgNTIyIC02MzUgMTU4IC0xNDAgNDQ2IC0zMDcgNTgwIC0zMzUgMTkgLTQgODIgLTIzIDE0MCAtNDMgMTA1IC0zNSAxMDUgLTM1IDM4NSAtMzUgMjU0IDAgMjg2IDIgMzUwIDIxIDIwMiA2MCAyNjUgODIgMzE5IDExMSAzMiAxNyA2NCAzMSA3MSAzMSA3IDAgMzUgMTUgNjIgMzQgMjYgMTggNTkgMzYgNzEgNDAgMTIgNCA0MyAyNSA2OCA0NyAyNSAyMSA0OSAzOSA1NSAzOSAzNyAwIDM2NCAzMjQgNDU2IDQ1MiAyNiAzNyA2MiA4NiA3OCAxMDkgMTcgMjIgNDEgNjIgNTUgODggMTQgMjYgMzUgNjMgNDcgODIgMTMgMjAgMzAgNTUgMzggNzggOCAyMyAyNCA1NSAzNSA3MSAxMiAxNiAzMiA2MCA0NCA5NyAxMyAzOCAzNSA5MSA0OSAxMTggMTQgMjggMjkgNjggMzIgOTAgNCAyMiAxOCA2NSAzMSA5NiAxMyAzMSAzMyAxMTIgNDQgMTgwIDExIDY4IDI5IDE2MiA0MCAyMDkgNDEgMTg3IDQ4IDcwNyAxMCA4MDUgLTYgMTcgLTIyIDEwMiAtMzUgMTkwIC0xMyA4OCAtMzMgMTg1IC00NCAyMTUgLTEyIDMwIC0zMCA5MyAtNDIgMTQwIC0xMiA0NyAtMzMgMTA3IC00NyAxMzUgLTEzIDI3IC0zMyA3MyAtNDMgMTAzIC0xMCAyOSAtMjcgNjUgLTM3IDgwIC0xMCAxNSAtMjYgNDcgLTM2IDcyIC0xMCAyNSAtMjggNjEgLTQwIDgwIC0xMyAyMCAtMzYgNTggLTUwIDg1IC0xNDAgMjYzIC00OTUgNjI2IC03MjggNzQ0IC0zMSAxNiAtNzAgMzggLTg2IDUwIC0xNyAxMSAtMzMgMjEgLTM3IDIxIC00IDAgLTQ1IDE4IC05MSA0MCAtNDYgMjMgLTExMSA0NiAtMTQ2IDUxIC0zNSA2IC0xMDYgMjQgLTE1OCA0MSAtODggMjggLTEwOCAzMCAtMjgwIDMzIC0xMDIgMiAtMjE5IDAgLTI2MCAtNnogbTM3NyAtMTc5IGM0MyAtNiA5MiAtMTUgMTA5IC0yMSAxNiAtNSA2OCAtMTYgMTE0IC0yNCA0OCAtOCAxMDcgLTI3IDEzOSAtNDQgMzEgLTE2IDc2IC0zNCAxMDEgLTQxIDI1IC02IDY4IC0yNiA5NSAtNDQgMjggLTE4IDg4IC01NyAxMzUgLTg1IDE1OCAtOTcgMjQwIC0xNzUgMjEyIC0yMDMgLTQgLTQgLTY2IDMgLTEzOCAxNiAtMjI3IDQyIC01MTYgMzUgLTY3OSAtMTggLTExMyAtMzcgLTIyOCAtODQgLTI1NiAtMTA1IC0xNCAtMTEgLTQyIC0yNiAtNjIgLTM0IC04NiAtMzYgLTE3OSAtMTYyIC0xODEgLTI0MyAtMSAtNjMgMTYgLTc1IDU2IC0zOCAxOCAxNyA0NyAzNiA2NCA0MyAxNyA3IDM3IDI0IDQzIDM4IDIwIDQ0IDM3IDEzIDE4IC0zNCAtMTIgLTMxIC0xNCAtNjUgLTEwIC0xNjUgNSAtMTE3IDQgLTEyOSAtMTYgLTE2MSAtMTggLTMwIC0yMCAtNDQgLTE1IC05MSA4IC02OSAtMTQgLTk5IC0xMDcgLTE0NiAtMTA3IC01NSAtMTMzIC0xMTIgLTc4IC0xNzUgMzkgLTQ0IDQ2IC05OCAyNSAtMTgwIC05IC0zMiAtMTYgLTg1IC0xNiAtMTE3IDAgLTY3IC0xMSAtNzcgLTY2IC02MCAtMjMgNyAtNDYgNyAtNjcgMSAtMTggLTYgLTYxIC0xMiAtOTcgLTE0IC0yNzAgLTE3IC0zMTMgLTI1IC0zNzQgLTc0IC00OSAtMzkgLTU5IC0zOSAtOTIgNCAtMzggNTAgLTUzIDQ1IC0xMjQgLTM5IC0zNCAtNDEgLTcyIC04MiAtODUgLTkwIC0zMCAtMjAgLTg1IC0xMDQgLTg1IC0xMzAgMSAtNzIgOTQgLTI4MyAxNjUgLTM3MSAxOCAtMjIgNDIgLTU4IDU0IC04MCAxMiAtMjIgNDQgLTc0IDcxIC0xMTUgMjcgLTQxIDU2IC04OCA2NCAtMTA1IDYwIC0xMjUgODcgLTE5NiA5NyAtMjUzIDcgLTM3IDIyIC05NCAzNCAtMTI3IDEzIC0zMyAzMCAtMTAwIDQwIC0xNDkgOSAtNTAgMjcgLTExNSA0MCAtMTQ2IDEzIC0zMSAyOSAtODggMzYgLTEyNiA2IC0zOCAyNiAtMTA3IDQ0IC0xNTQgMTggLTQ3IDM2IC05OSAzOSAtMTE2IDQgLTE4IDIwIC01MiAzNiAtNzcgMTUgLTI0IDM4IC02NiA0OSAtOTMgMTIgLTI3IDMwIC01OCA0MCAtNjkgMTAgLTExIDI5IC00MCA0MSAtNjUgMTMgLTI0IDMxIC01NiA0MiAtNzAgMjAgLTI4IDE2IC01NSAtOSAtNjQgLTQ4IC0xOSAtMjYwIDU3IC0zNjkgMTMxIC0xNiAxMSAtNjkgNDYgLTExOSA3OSAtMTAzIDY3IC0yNDIgMTgxIC0zMDAgMjQ2IC0xOTEgMjE0IC0yNTEgMzAzIC0zODEgNTU4IC0xMTggMjMzIC0yMDMgNDk4IC0yMjQgNzAwIC02IDU4IC0xNiAxMjcgLTIxIDE1NSAtMTQgNzQgLTMxIDM4MiAtMjQgNDQwIDMgMjggMTAgNzkgMTYgMTE1IDUgMzYgMTggMTM5IDI4IDIzMCAxMyAxMDcgMjcgMTg0IDQxIDIxOSAxMiAzMCAyOCA4OSAzNyAxMzAgOCA0MiAyNiA5OCAzOCAxMjYgMTMgMjcgMjggNzAgMzUgOTUgMTIgNDMgNzQgMTcwIDE1OSAzMjEgMTc0IDMwOCA1ODEgNjg4IDgzNiA3NzkgMjggMTAgNzUgMjkgMTA2IDQzIDMxIDE0IDc0IDI5IDk1IDMyIDIyIDQgNjMgMTMgOTMgMjIgMTQ5IDQxIDM0OSA1NCA1MDggMzN6IG0xNTU0IC0xNDg3IGM2IC0xNiAxNyAtNjcgMjQgLTExNSA3IC00OCAxOCAtMTExIDI0IC0xNDAgMzMgLTE2OSA0MCAtMjI2IDQ1IC0zNDMgOCAtMTg2IC0xOSAtMjI2IC0xMDMgLTE0OSAtNDcgNDEgLTY0IDg4IC04MiAyMjAgLTE5IDEzNCAxMCA1MDIgNDMgNTQxIDE3IDIxIDM4IDE1IDQ5IC0xNHogbS0xOTA1IC01NzUgYzQgLTYgMTMgLTQ3IDIwIC05MCAxNCAtODkgMzcgLTEyOCA5MCAtMTUzIDQwIC0xOSAzMCAtMTkgMjk4IDEwIDIxOSAyNCAyNTQgMTEgMzMwIC0xMTYgNDYgLTc4IDU3IC0xMzMgNDUgLTIyOSAtMTkgLTE1OSAtNjEgLTIyNiAtMTk2IC0zMTYgLTQ5IC0zMiAtMTAxIC03MSAtMTE4IC04NiAtMTYgLTE2IC04NCAtNzggLTE1MCAtMTM5IC0xMzEgLTEyMCAtMTg5IC0xOTEgLTIzNSAtMjg2IC0xNiAtMzQgLTMzIC02NCAtMzggLTY3IC01IC0zIC0zMiAtNTMgLTYxIC0xMTAgLTQ5IC0xMDAgLTc3IC0xMzMgLTEwNSAtMTIzIC0xMiA1IC0xMDYgMTU5IC0xMDYgMTc1IDAgNSAtMTggMzQgLTQwIDY1IC0yMyAzMSAtNDcgNzUgLTU1IDk3IC04IDIzIC0yNCA1NCAtMzUgNzAgLTExIDE2IC0yNyA0OCAtMzYgNzIgLTggMjMgLTI2IDYxIC0zOSA4NCAtNjUgMTExIC04NSAyMDMgLTcxIDMyOSA2IDUyIDQgODkgLTcgMTQwIC04IDM5IC0yMSAxMTIgLTI3IDE2NCAtMTUgMTIwIC0yNSAxNDggLTY3IDE5MiAtMjkgMzAgLTM0IDQyIC0zMSA3NCA1IDU3IDI4IDY2IDc1IDI4IDk4IC03OCAxODcgLTkwIDMwOCAtNDAgODEgMzMgOTUgNTMgMTU2IDIxNCAyNyA3MSA2NiA4OCA5NSA0MXogbS02NjggLTQzMiBjMiAtMTAgLTEgLTIzIC03IC0yOSAtMTQgLTE0IC00MSA5IC00MSAzNSAwIDI2IDQzIDIxIDQ4IC02eiIvPiA8cGF0aCBkPSJNNzg3MyA0ODExIGMtMTA5IC0zMSAtMTE1IC00OCAtNDIgLTExOCA3MSAtNjYgNzYgLTg0IDQzIC0xNDYgLTE0IC0yOCAtMzIgLTY4IC00MCAtOTAgLTcgLTIxIC0yMyAtNTEgLTM0IC02NyAtMTIgLTE2IC0yOSAtNTQgLTQwIC04NSAtMTEgLTMxIC0zNCAtODUgLTUxIC0xMjAgLTM3IC03NSAtMzcgLTEzNiAxIC0xODcgMTIgLTE2IDM0IC01OSA0OCAtOTYgNTAgLTEyMyAxMzYgLTE0NSAyMzAgLTU5IDMwIDI4IDMxIDEwNiAxIDE2MiAtMTIgMjIgLTIyIDU2IC0yMiA3NSAxIDQ5IDQ4IDE5OCA3NiAyNDAgMTMgMTkgMjggNDYgMzIgNjAgNCAxNCAyNyA2OCA1MSAxMjEgNjcgMTQ3IDY4IDE3NSA4IDIzOSAtODUgOTEgLTE0MCAxMDYgLTI2MSA3MXoiLz4gPC9nPjwvc3ZnPg==");
+  --night:#0e1814; --night-2:#15231e; --night-3:#1d2f28;
+  --paper:#f4ecdb; --paper-2:#ebe0c8; --paper-line:#d8c8a6;
+  --ink:#231b14; --ink-soft:#5b4b3a; --ink-faint:#8a7760;
+  --gold:#c7a25a; --gold-deep:#9c7a36; --gold-bright:#f0dca6;
+  --rose:#8c3a45; --rose-soft:#e7c3bf;
+  --moon:#e9e1cf; --moon-soft:#b5ab96;
+  --serif:"Cormorant Garamond", Garamond, "Times New Roman", serif;
+  --sans:"Jost", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --black:"UnifrakturMaguntia", var(--serif);
+  --ease:cubic-bezier(.2,.7,.2,1);
+  --ease-spring:cubic-bezier(.34,1.56,.64,1);
+  --r:18px;
+  --safe-b:env(safe-area-inset-bottom,0px);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--night);color:var(--moon);font-family:var(--serif);font-size:18px;line-height:1.5;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;padding:0}
+a{color:inherit}
+img,svg{display:block}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:6px}
+.ico{width:1em;height:1em;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+
+/* ---------- emblem ---------- */
+.emblem{display:block;aspect-ratio:832/632;background:currentColor;-webkit-mask:var(--emblem) center/contain no-repeat;mask:var(--emblem) center/contain no-repeat}
+.emblem.shine{background:linear-gradient(105deg,var(--gold-deep) 0%,var(--gold) 35%,var(--gold-bright) 48%,#fff6dd 50%,var(--gold-bright) 52%,var(--gold) 65%,var(--gold-deep) 100%);background-size:320% 100%;animation:shine 6s var(--ease) infinite 1.6s}
+@keyframes shine{0%{background-position:100% 0}45%,100%{background-position:0 0}}
+
+/* ---------- intro veil ---------- */
+.veil{position:fixed;inset:0;z-index:100;background:var(--night);display:grid;place-items:center;transition:opacity .9s var(--ease),visibility .9s}
+.veil.gone{opacity:0;visibility:hidden}
+.veil .emblem{width:min(46vw,220px);color:var(--gold);animation:veilIn 1.4s var(--ease) both}
+.veil p{margin:18px 0 0;text-align:center;font-family:var(--sans);font-size:11px;letter-spacing:.42em;text-transform:uppercase;color:var(--moon-soft);animation:fadeUp 1s var(--ease) .5s both}
+@keyframes veilIn{from{opacity:0;filter:blur(14px);transform:scale(.94)}to{opacity:1;filter:blur(0);transform:none}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+
+/* ---------- hero ---------- */
+.hero{position:relative;min-height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:88px 20px 64px;text-align:center;overflow:hidden;isolation:isolate;
+  background:
+    radial-gradient(120% 70% at 50% 0%,rgba(199,162,90,.16),transparent 60%),
+    radial-gradient(70% 40% at 50% 78%,rgba(140,58,69,.16),transparent 70%),
+    linear-gradient(180deg,#0b1411 0%,var(--night) 45%,var(--night) 100%)}
+#lights{position:absolute;inset:0;z-index:-1;width:100%;height:100%}
+.arch{position:absolute;z-index:-1;left:50%;top:6%;width:min(560px,120vw);height:auto;transform:translateX(-50%);opacity:.9;pointer-events:none}
+.arch path{stroke-dasharray:1;stroke-dashoffset:1}
+.ready .arch path{animation:draw 3.2s var(--ease) forwards}
+.ready .arch .d2{animation-delay:.35s}.ready .arch .d3{animation-delay:.7s}
+.arch .bloom{transform-box:fill-box;transform-origin:center;transform:scale(0)}
+.ready .arch .bloom{animation:bloom .9s var(--ease-spring) forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes bloom{to{transform:scale(1)}}
+.lang-top{position:absolute;top:calc(16px + env(safe-area-inset-top,0px));right:16px;z-index:3}
+.hero-emblem{width:min(64vw,300px);position:relative;margin-top:6vh}
+.hero-emblem::after{content:"";position:absolute;inset:-30% -20%;z-index:-1;background:radial-gradient(closest-side,rgba(240,220,166,.16),transparent);animation:breathe 5s ease-in-out infinite}
+@keyframes breathe{50%{opacity:.45;transform:scale(1.06)}}
+.kicker{font-family:var(--sans);font-size:12px;font-weight:500;letter-spacing:.4em;text-transform:uppercase;color:var(--gold);margin:22px 0 0;padding-left:.4em}
+.tagline{font-style:italic;font-weight:400;font-size:clamp(28px,6.4vw,44px);line-height:1.12;margin:14px 0 0;color:var(--moon);text-wrap:balance}
+.tagline em{font-style:normal;font-family:var(--black);color:var(--gold-bright);font-size:1.02em}
+.place{font-family:var(--sans);font-size:13px;letter-spacing:.08em;color:var(--moon-soft);margin:14px 0 0}
+.status{display:inline-flex;align-items:center;gap:10px;margin-top:22px;padding:8px 16px 8px 12px;border:1px solid rgba(199,162,90,.35);border-radius:99px;font-family:var(--sans);font-size:13px;color:var(--moon);background:rgba(14,24,20,.55);backdrop-filter:blur(6px)}
+.status i{width:8px;height:8px;border-radius:50%;background:#7fbf8f;box-shadow:0 0 0 0 rgba(127,191,143,.6);animation:pulse 2.2s infinite}
+.status.closed i{background:#c9797f;animation:none}
+@keyframes pulse{70%{box-shadow:0 0 0 9px rgba(127,191,143,0)}100%{box-shadow:0 0 0 0 rgba(127,191,143,0)}}
+.steps{list-style:none;display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding:0;margin:34px auto 0;max-width:460px;width:100%;counter-reset:s}
+.steps li{position:relative;padding:14px 6px 12px;border-radius:14px;background:linear-gradient(180deg,rgba(233,225,207,.06),rgba(233,225,207,.02));border:1px solid rgba(233,225,207,.08);font-family:var(--sans);font-size:12px;line-height:1.35;color:var(--moon-soft)}
+.steps li::before{counter-increment:s;content:counter(s,upper-roman);display:block;font-family:var(--serif);font-style:italic;font-size:22px;color:var(--gold);line-height:1;margin-bottom:6px}
+.steps b{display:block;color:var(--moon);font-weight:500;font-size:13px}
+.cta{margin-top:28px;display:inline-flex;align-items:center;gap:12px;padding:15px 28px;border-radius:99px;background:linear-gradient(180deg,var(--gold-bright),var(--gold));color:#23190c;font-family:var(--sans);font-weight:600;font-size:14px;letter-spacing:.14em;text-transform:uppercase;box-shadow:0 10px 30px -10px rgba(199,162,90,.7),inset 0 1px 0 rgba(255,255,255,.6);transition:transform .35s var(--ease-spring),box-shadow .35s;text-decoration:none;position:relative;overflow:hidden}
+.cta::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.55) 50%,transparent 70%);transform:translateX(-120%);animation:sweep 4.5s var(--ease) infinite 3s}
+@keyframes sweep{30%,100%{transform:translateX(120%)}}
+.cta:hover{transform:translateY(-2px)}
+.cta:active{transform:scale(.97)}
+.scroll-cue{margin-top:34px;width:22px;height:36px;border:1px solid rgba(233,225,207,.35);border-radius:12px;position:relative}
+.scroll-cue::after{content:"";position:absolute;left:50%;top:7px;width:3px;height:7px;margin-left:-1.5px;border-radius:2px;background:var(--gold);animation:cue 2s var(--ease) infinite}
+@keyframes cue{60%{transform:translateY(12px);opacity:0}100%{opacity:0}}
+.hero .in{opacity:0}
+.ready .hero .in{animation:rise 1.1s var(--ease) forwards}
+.ready .hero .hero-emblem.in{animation:rise 1.3s var(--ease) .1s forwards,shine 6s var(--ease) 1.8s infinite}
+@keyframes rise{from{opacity:0;transform:translateY(18px);filter:blur(6px)}to{opacity:1;transform:none;filter:none}}
+
+/* ---------- language toggle ---------- */
+.lang{display:inline-flex;position:relative;padding:3px;border-radius:99px;border:1px solid rgba(199,162,90,.4);background:rgba(14,24,20,.6);backdrop-filter:blur(8px);font-family:var(--sans);font-size:11px;font-weight:600;letter-spacing:.12em}
+.lang button{position:relative;z-index:1;padding:6px 10px;border-radius:99px;color:var(--moon-soft);transition:color .3s}
+.lang button[aria-pressed="true"]{color:#23190c}
+.lang .knob{position:absolute;top:3px;bottom:3px;left:3px;width:calc(50% - 3px);border-radius:99px;background:var(--gold);transition:transform .45s var(--ease-spring)}
+.lang[data-lang="en"] .knob{transform:translateX(100%)}
+
+/* ---------- sticky bar ---------- */
+.bar{position:fixed;top:0;left:0;right:0;z-index:40;background:rgba(14,24,20,.86);backdrop-filter:blur(14px) saturate(1.2);-webkit-backdrop-filter:blur(14px) saturate(1.2);border-bottom:1px solid rgba(199,162,90,.18);transform:translateY(-105%);transition:transform .5s var(--ease)}
+.bar.show{transform:none}
+.bar-top{display:flex;align-items:center;gap:12px;padding:calc(8px + env(safe-area-inset-top,0px)) 16px 4px;max-width:960px;margin:0 auto}
+.bar-top .emblem{width:62px;color:var(--gold)}
+.bar-top .sp{flex:1}
+.icon-btn{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;font-size:20px;color:var(--moon);transition:background .25s}
+.icon-btn:hover{background:rgba(233,225,207,.08)}
+.chips-wrap{position:relative;max-width:960px;margin:0 auto}
+.chips{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;padding:4px 12px 10px;scroll-behavior:smooth;position:relative}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;padding:7px 14px;border-radius:99px;font-family:var(--sans);font-size:13px;color:var(--moon-soft);white-space:nowrap;transition:color .3s}
+.chip.active{color:#23190c}
+.chip-ind{position:absolute;top:4px;height:32px;border-radius:99px;background:var(--gold);transition:transform .5s var(--ease),width .5s var(--ease);z-index:-1;left:0;width:0}
+.chips .chip{position:relative;z-index:1}
+
+/* ---------- menu (paper) ---------- */
+.paper{position:relative;background:
+  url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .45 0 0 0 0 .35 0 0 0 0 .2 0 0 0 .07 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>"),
+  radial-gradient(120% 60% at 50% 0%,#fbf5e8,var(--paper) 60%,var(--paper-2));
+  color:var(--ink);padding:72px 0 120px}
+.paper::before{content:"";position:absolute;left:0;right:0;top:-1px;height:28px;background:var(--night);-webkit-mask:radial-gradient(14px 14px at 50% 0,#000 98%,transparent) 0 0/28px 28px repeat-x;mask:radial-gradient(14px 14px at 50% 0,#000 98%,transparent) 0 0/28px 28px repeat-x}
+.wrap{max-width:760px;margin:0 auto;padding:0 18px}
+.menu-head{text-align:center}
+.menu-head .ornament{width:180px;margin:0 auto;color:var(--gold-deep)}
+.menu-head h2{font-family:var(--black);font-weight:400;font-size:clamp(46px,11vw,72px);line-height:1;margin:6px 0 0;color:var(--ink)}
+.menu-head p{margin:10px auto 0;max-width:34ch;color:var(--ink-soft);font-style:italic;font-size:19px}
+
+.tools{position:sticky;top:calc(var(--barH,98px) - 1px);z-index:20;margin:28px -6px 0;padding:10px 6px;background:#f4ecdb;box-shadow:0 12px 14px -12px rgba(60,40,10,.25);border-radius:0 0 16px 16px}
+.search{position:relative;display:flex;align-items:center}
+.search .ico{position:absolute;left:16px;font-size:18px;color:var(--ink-faint);pointer-events:none}
+.search input{width:100%;height:48px;border-radius:99px;border:1px solid var(--paper-line);background:#fffaf0;padding:0 44px 0 46px;font:500 16px var(--sans);color:var(--ink);box-shadow:inset 0 1px 2px rgba(60,40,10,.06);transition:border-color .25s,box-shadow .25s}
+.search input::-webkit-search-cancel-button{-webkit-appearance:none;appearance:none}
+.search input::placeholder{color:var(--ink-faint);font-weight:400}
+.search input:focus{outline:none;border-color:var(--gold);box-shadow:0 0 0 4px rgba(199,162,90,.18)}
+.search .clear{position:absolute;right:8px;width:34px;height:34px;border-radius:50%;display:grid;place-items:center;color:var(--ink-soft);opacity:0;pointer-events:none;transition:opacity .2s}
+.search.has .clear{opacity:1;pointer-events:auto}
+.filters{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;margin-top:10px;padding-bottom:2px}
+.filters::-webkit-scrollbar{display:none}
+.fchip{flex:none;display:inline-flex;align-items:center;gap:6px;padding:7px 13px;border-radius:99px;border:1px solid var(--paper-line);background:rgba(255,250,240,.7);font:500 13px var(--sans);color:var(--ink-soft);transition:all .3s var(--ease)}
+.fchip .ico{font-size:14px}
+.fchip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+
+.cat{margin-top:72px;scroll-margin-top:190px}
+.cat:first-child{margin-top:36px}
+.cat-h{display:flex;align-items:center;gap:14px}
+.cat-ic{flex:none;width:54px;height:54px;border-radius:50%;display:grid;place-items:center;font-size:28px;color:var(--gold-deep);border:1px solid var(--paper-line);background:radial-gradient(circle at 30% 25%,#fffdf6,var(--paper-2))}
+.cat-ic .ico{stroke-width:1.2}
+.cat-t{flex:1;min-width:0}
+.cat-t small{display:block;font:500 11px var(--sans);letter-spacing:.3em;text-transform:uppercase;color:var(--gold-deep)}
+.cat-t h3{margin:2px 0 0;font-weight:500;font-size:clamp(30px,7vw,40px);line-height:1.05}
+.cat-t p{margin:2px 0 0;font-style:italic;color:var(--ink-soft);font-size:17px}
+.rule{height:10px;margin:16px 0 4px;background:
+  radial-gradient(circle,var(--gold-deep) 1.6px,transparent 2px) center/10px 10px no-repeat,
+  linear-gradient(var(--paper-line),var(--paper-line)) left center/calc(50% - 12px) 1px no-repeat,
+  linear-gradient(var(--paper-line),var(--paper-line)) right center/calc(50% - 12px) 1px no-repeat}
+
+.item{position:relative;display:grid;grid-template-columns:auto 1fr auto;gap:14px;align-items:center;padding:14px 4px;border-bottom:1px dashed rgba(156,122,54,.28);cursor:pointer;border-radius:16px;transition:background .3s}
+.item:hover{background:rgba(255,250,240,.6)}
+.item:last-child{border-bottom:0}
+.body{min-width:0}
+.item-line{display:flex;align-items:baseline;gap:8px;min-width:0}
+.item-name{display:block;font-size:22px;font-weight:600;line-height:1.12}
+.item-foot{display:flex;align-items:center;flex-wrap:wrap;gap:6px 10px;margin-top:7px}
+.dots{flex:1;min-width:10px;border-bottom:2px dotted rgba(90,70,40,.3);transform:translateY(-5px)}
+.price{font:500 15px var(--sans);white-space:nowrap;color:var(--ink);font-variant-numeric:tabular-nums}
+.price small{font-size:12px;color:var(--ink-faint);font-weight:400}
+.item-foot .price{font-weight:600;font-size:15.5px;padding:3px 10px;border-radius:8px;background:rgba(199,162,90,.16)}
+.item-desc{margin:3px 0 0;color:var(--ink-soft);font-size:17px;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.item-opts{margin:4px 0 0;font:400 12.5px/1.5 var(--sans);color:var(--ink-faint)}
+.item-opts b{font-weight:500;color:var(--ink-soft)}
+.item-opts i{font-style:normal;color:var(--gold)}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{display:inline-flex;align-items:center;gap:4px;padding:2px 9px 2px 7px;border-radius:99px;font:500 11px var(--sans);letter-spacing:.03em;background:rgba(78,110,72,.12);color:#4a6a43}
+.tag .ico{font-size:12px}
+/* moldura em arco das fotos */
+[data-ph]{position:relative;display:grid;place-items:center;overflow:hidden;color:var(--paper-line);background:linear-gradient(110deg,#efe4cc 30%,#f8f0de 45%,#efe4cc 60%) 0 0/300% 100%;animation:ph 1.6s linear infinite}
+[data-ph] > .ico{position:absolute;font-size:34px;stroke-width:1}
+[data-ph] img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transform:scale(1.08);transition:opacity .7s var(--ease),transform 1.2s var(--ease)}
+[data-ph] img.ok{opacity:1;transform:none}
+[data-ph]:has(img.ok),[data-ph].noimg{animation:none}
+[data-ph].noimg{background:radial-gradient(circle at 50% 40%,#fbf5e8,var(--paper-2))}
+[data-ph].noimg > .ico{color:var(--gold-deep)}
+@keyframes ph{to{background-position:-300% 0}}
+.thumb{width:78px;height:96px;border-radius:40px 40px 12px 12px;box-shadow:0 0 0 1px var(--paper-line),0 0 0 4px #fffaf0,0 0 0 5px rgba(199,162,90,.45),0 10px 18px -10px rgba(60,40,10,.45);margin:5px}
+.item:hover .thumb img.ok{transform:scale(1.06)}
+.ctrl{align-self:center}
+.add{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;font-size:20px;color:var(--paper);background:var(--ink);box-shadow:0 6px 14px -6px rgba(35,27,20,.6);transition:transform .35s var(--ease-spring),background .3s}
+.add .qn{font:600 15px var(--sans)}
+.add:hover{background:var(--rose)}
+.add:active{transform:scale(.88)}
+.add.sm{width:34px;height:34px;font-size:16px}
+.stepper{display:flex;flex-direction:column;align-items:center;gap:2px;padding:4px;border-radius:99px;background:var(--ink);color:var(--paper);animation:pop .45s var(--ease-spring)}
+.stepper button{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;font-size:18px}
+.stepper button:hover{background:rgba(255,255,255,.1)}
+.stepper output{font:600 15px var(--sans);min-width:2ch;text-align:center}
+@keyframes pop{from{transform:scale(.6);opacity:0}}
+/* capa da categoria */
+.cover{aspect-ratio:16/9;max-height:300px;width:100%;border-radius:999px 999px 20px 20px / 180px 180px 20px 20px;margin-bottom:22px;box-shadow:0 0 0 1px var(--paper-line),0 0 0 6px #fffaf0,0 0 0 7px rgba(199,162,90,.5),0 24px 40px -24px rgba(60,40,10,.55)}
+.cover::after{content:"";position:absolute;inset:0;background:radial-gradient(120% 90% at 50% 10%,transparent 55%,rgba(35,27,20,.35));pointer-events:none}
+.cover > .ico{font-size:60px}
+.cover img{transform:scale(1.18)}
+.cover.on img.ok{transform:scale(1);transition:opacity .9s var(--ease),transform 2.6s var(--ease)}
+.cat.filtering .cover{display:none}
+/* adicionais */
+.xgrid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}
+.item.xi{display:flex;flex-direction:column;align-items:stretch;justify-content:space-between;gap:8px;padding:12px 8px 8px 14px;border:1px dashed rgba(156,122,54,.4);border-radius:16px;background:rgba(255,250,240,.55)}
+.item.xi.hide{display:none}
+.xi-row{display:flex;align-items:center;justify-content:space-between;gap:6px;min-height:34px}
+.xi .item-name{font-size:18px;line-height:1.1}
+.xi .price{font-size:13.5px;color:var(--ink-soft)}
+.mini.dark{background:var(--ink);border-color:var(--ink);color:var(--paper);animation:pop .4s var(--ease-spring)}
+.mini.dark button{width:30px;height:30px}
+.item.hide{display:none}
+.cat.hide{display:none}
+.empty{display:none;text-align:center;padding:60px 10px 20px;color:var(--ink-soft)}
+.empty.show{display:block;animation:fadeUp .5s var(--ease)}
+.empty .emblem{width:90px;margin:0 auto 14px;color:var(--paper-line)}
+.empty b{display:block;font-size:24px;font-weight:500;color:var(--ink)}
+.note{margin:64px auto 0;max-width:46ch;text-align:center;font:400 13px/1.6 var(--sans);color:var(--ink-faint)}
+mark{background:linear-gradient(transparent 55%,rgba(199,162,90,.45) 55%);color:inherit;padding:0 1px}
+
+/* reveal */
+.rv{opacity:0;transform:translateY(22px);filter:blur(4px);transition:opacity .9s var(--ease),transform .9s var(--ease),filter .9s var(--ease);transition-delay:var(--d,0s)}
+.rv.on{opacity:1;transform:none;filter:none}
+
+/* ---------- house (night) ---------- */
+.house{position:relative;padding:96px 0 40px;background:
+  radial-gradient(80% 40% at 50% 0%,rgba(140,58,69,.18),transparent 70%),var(--night)}
+.house::before{content:"";position:absolute;left:0;right:0;top:-1px;height:28px;background:var(--paper-2);-webkit-mask:radial-gradient(14px 14px at 50% 0,#000 98%,transparent) 0 0/28px 28px repeat-x;mask:radial-gradient(14px 14px at 50% 0,#000 98%,transparent) 0 0/28px 28px repeat-x}
+.eyebrow{font:500 11px var(--sans);letter-spacing:.38em;text-transform:uppercase;color:var(--gold);text-align:center}
+.h2{font-weight:400;font-style:italic;text-align:center;font-size:clamp(34px,8vw,52px);line-height:1.08;margin:10px 0 0;text-wrap:balance}
+.story{margin:34px auto 0;max-width:58ch;font-size:20px;color:#d9d0bc}
+.story p{margin:0 0 16px}
+.story p:first-child::first-letter{float:left;font-family:var(--black);font-size:78px;line-height:.8;padding:6px 10px 0 0;color:var(--gold)}
+.seal{display:flex;align-items:center;gap:18px;margin:36px auto 0;max-width:520px;padding:18px;border-radius:var(--r);border:1px solid rgba(199,162,90,.25);background:linear-gradient(135deg,rgba(199,162,90,.1),transparent)}
+.seal-badge{flex:none;width:92px;height:92px;position:relative;color:var(--gold)}
+.seal-badge svg{width:100%;height:100%}
+.seal-badge .ring{animation:spin 24s linear infinite;transform-origin:50% 50%}
+@keyframes spin{to{transform:rotate(360deg)}}
+.seal-badge b{position:absolute;inset:0;display:grid;place-items:center;font-family:var(--black);font-size:28px;font-weight:400;color:var(--gold-bright)}
+.seal p{margin:0;font-size:18px;line-height:1.35}
+.seal small{display:block;font:500 12px var(--sans);letter-spacing:.03em;color:var(--moon-soft);margin-top:4px}
+.feats{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:40px}
+.feat{position:relative;padding:20px 16px;border-radius:var(--r);background:linear-gradient(180deg,var(--night-2),rgba(21,35,30,.4));border:1px solid rgba(233,225,207,.07);overflow:hidden;transition:transform .5s var(--ease),border-color .5s}
+.feat::before{content:"";position:absolute;inset:auto -30% -60% -30%;height:120%;background:radial-gradient(closest-side,rgba(199,162,90,.18),transparent);opacity:0;transition:opacity .6s}
+.feat:hover{transform:translateY(-3px);border-color:rgba(199,162,90,.3)}
+.feat:hover::before{opacity:1}
+.feat .ico{font-size:30px;color:var(--gold);stroke-width:1.2}
+.feat h4{margin:12px 0 4px;font-size:21px;font-weight:600;line-height:1.15}
+.feat p{margin:0;font:400 13px/1.5 var(--sans);color:var(--moon-soft)}
+.grid2{display:grid;gap:14px;margin-top:64px}
+.card{border-radius:var(--r);background:var(--night-2);border:1px solid rgba(233,225,207,.08);padding:22px}
+.card h3{margin:0 0 14px;display:flex;align-items:center;gap:10px;font-size:26px;font-weight:500}
+.card h3 .ico{color:var(--gold);font-size:22px}
+.hours{list-style:none;margin:0;padding:0;font-family:var(--sans);font-size:14px}
+.hours li{display:flex;justify-content:space-between;padding:9px 12px;border-radius:10px;color:var(--moon-soft)}
+.hours li.today{background:rgba(199,162,90,.14);color:var(--moon)}
+.hours li.today span:first-child::after{content:attr(data-today);margin-left:8px;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+.hours-note{margin:12px 0 0;font:400 12px/1.5 var(--sans);color:var(--moon-soft)}
+.addr{font-size:20px;line-height:1.35;margin:0}
+.addr small{display:block;font:400 13px var(--sans);color:var(--moon-soft);margin-top:4px}
+.map{margin:16px 0;border-radius:14px;overflow:hidden;aspect-ratio:16/10;background:var(--night-3);position:relative;border:1px solid rgba(199,162,90,.2)}
+.map iframe{width:100%;height:100%;border:0;filter:grayscale(.55) sepia(.35) contrast(.95) brightness(.92)}
+.actions{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;min-height:46px;padding:10px 14px;border-radius:12px;border:1px solid rgba(233,225,207,.14);font:500 14px var(--sans);text-decoration:none;color:var(--moon);transition:background .25s,border-color .25s}
+.btn:hover{background:rgba(233,225,207,.06);border-color:rgba(199,162,90,.4)}
+.btn .ico{font-size:18px;color:var(--gold)}
+.btn.primary{grid-column:1 / -1;background:var(--gold);color:#23190c;border-color:var(--gold)}
+.btn.primary .ico{color:#23190c}
+.btn.primary:hover{background:var(--gold-bright)}
+footer{text-align:center;padding:72px 20px calc(120px + var(--safe-b));color:var(--moon-soft)}
+footer .emblem{width:120px;margin:0 auto;color:var(--gold)}
+footer p{margin:14px 0 0;font-style:italic;font-size:20px;color:var(--moon)}
+footer small{display:block;margin-top:18px;font:400 12px/1.6 var(--sans)}
+
+/* ---------- order bar ---------- */
+.obar{position:fixed;left:12px;right:12px;bottom:calc(12px + var(--safe-b));z-index:45;max-width:560px;margin:0 auto;display:flex;align-items:center;gap:12px;padding:10px 10px 10px 16px;border-radius:20px;background:var(--ink);color:var(--paper);box-shadow:0 18px 40px -12px rgba(0,0,0,.55),0 0 0 1px rgba(199,162,90,.35);transform:translateY(150%);transition:transform .55s var(--ease-spring)}
+.obar.show{transform:none}
+.bag{position:relative;width:40px;height:40px;border-radius:12px;display:grid;place-items:center;font-size:22px;color:var(--gold-bright);background:rgba(199,162,90,.15)}
+.bag b{position:absolute;top:-6px;right:-6px;min-width:20px;height:20px;padding:0 5px;border-radius:99px;background:var(--rose);color:#fff;font:600 11px/20px var(--sans);text-align:center}
+.bag.bump{animation:bump .5s var(--ease-spring)}
+@keyframes bump{40%{transform:scale(1.22) rotate(-6deg)}}
+.obar-t{flex:1;min-width:0;font-family:var(--sans);line-height:1.2}
+.obar-t small{display:block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+.obar-t span{font-size:16px;font-weight:500}
+.obar .go{padding:12px 16px;border-radius:14px;background:var(--gold);color:#23190c;font:600 13px var(--sans);letter-spacing:.06em;white-space:nowrap}
+
+/* ---------- sheets ---------- */
+.scrim{position:fixed;inset:0;z-index:60;background:rgba(6,10,8,.6);backdrop-filter:blur(3px);opacity:0;visibility:hidden;transition:opacity .4s,visibility .4s}
+.scrim.show{opacity:1;visibility:visible}
+.sheet{position:fixed;left:0;right:0;bottom:0;z-index:61;overflow:hidden;max-width:620px;margin:0 auto;max-height:92svh;display:flex;flex-direction:column;border-radius:26px 26px 0 0;color:var(--ink);background:radial-gradient(120% 50% at 50% 0%,#fffaf0,var(--paper));box-shadow:0 -20px 60px rgba(0,0,0,.4);transform:translateY(105%);transition:transform .55s var(--ease);visibility:hidden}
+.sheet.show{transform:none;visibility:visible}
+.sheet.drag{transition:none}
+.grab{position:absolute;top:0;left:0;right:0;z-index:3;padding:10px 0 12px;display:grid;place-items:center;cursor:grab;touch-action:none}
+.sheet.has-photo .grab i{background:rgba(255,255,255,.85);box-shadow:0 1px 6px rgba(0,0,0,.3)}
+.sheet.has-photo .sheet-x{background:rgba(255,250,240,.9);box-shadow:0 2px 10px rgba(0,0,0,.2)}
+.grab i{width:44px;height:5px;border-radius:9px;background:var(--paper-line)}
+.sheet-x{position:absolute;right:12px;top:12px;width:38px;height:38px;border-radius:50%;display:grid;place-items:center;font-size:18px;background:rgba(35,27,20,.06);z-index:2}
+.sheet-body{overflow-y:auto;padding:30px 22px 22px;overscroll-behavior:contain}
+.sheet.has-photo .sheet-body{padding-top:0}
+.d-photo{margin:0 -22px;aspect-ratio:5/4;max-height:44svh;width:calc(100% + 44px);display:block}
+.d-photo > .ico{font-size:80px;left:50%;top:50%;transform:translate(-50%,-50%)}
+.d-photo::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:38%;background:linear-gradient(transparent,#fcf6ea);pointer-events:none}
+.d-photo .spark{position:absolute;z-index:2;width:8px;height:8px;color:#fff6dd;filter:drop-shadow(0 0 4px rgba(240,220,166,.9));animation:twinkle 2.4s ease-in-out infinite}
+.d-photo .spark .ico{font-size:12px;position:static;stroke-width:0}
+.d-x{margin:16px 0 0;padding:14px 16px;border-radius:14px;background:rgba(199,162,90,.1);border:1px solid rgba(199,162,90,.25);font:400 14px/1.5 var(--sans);color:var(--ink-soft)}
+.d-x p{margin:0 0 6px}.d-x p:last-child{margin:0;font-size:12.5px;color:var(--ink-faint)}
+.d-x b{color:var(--ink);font-weight:600}
+.extras{display:flex;flex-wrap:wrap;gap:8px}
+.xchip{display:inline-flex;align-items:center;gap:6px;padding:8px 12px 8px 10px;border-radius:99px;border:1px solid var(--paper-line);background:#fffaf0;font:500 13px var(--sans);color:var(--ink);transition:all .3s var(--ease)}
+.xchip .ico{font-size:13px;color:var(--gold-deep)}
+.xchip b{font-weight:400;color:var(--ink-faint)}
+.xchip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.xchip[aria-pressed="true"] .ico,.xchip[aria-pressed="true"] b{color:var(--gold-bright)}
+.sheet-foot{padding:14px 22px calc(16px + var(--safe-b));border-top:1px solid var(--paper-line);background:rgba(244,236,219,.95)}
+.d-art{height:150px;margin:0 -22px 0;display:grid;place-items:center;position:relative;overflow:hidden;background:radial-gradient(60% 90% at 50% 100%,rgba(199,162,90,.25),transparent)}
+.d-art .ico{font-size:96px;color:var(--gold-deep);stroke-width:.8;animation:float 5s ease-in-out infinite}
+.d-art .spark{position:absolute;width:6px;height:6px;color:var(--gold);animation:twinkle 2.4s ease-in-out infinite}
+.d-art .spark .ico{font-size:10px;stroke-width:0;animation:none}
+@keyframes float{50%{transform:translateY(-6px) rotate(-2deg)}}
+@keyframes twinkle{0%,100%{opacity:0;transform:scale(.3)}50%{opacity:1;transform:scale(1)}}
+.d-cat{font:500 11px var(--sans);letter-spacing:.3em;text-transform:uppercase;color:var(--gold-deep);text-align:center;margin-top:6px}
+.d-name{text-align:center;font-size:34px;line-height:1.05;font-weight:600;margin:6px 0 0}
+.d-desc{text-align:center;font-size:19px;color:var(--ink-soft);margin:10px auto 0;max-width:40ch}
+.d-sec{margin-top:22px}
+.d-sec > span{display:block;font:600 11px var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:8px}
+.opts{display:grid;gap:8px}
+.opt{display:flex;align-items:center;gap:12px;padding:13px 14px;border-radius:14px;border:1px solid var(--paper-line);background:#fffaf0;text-align:left;transition:border-color .25s,box-shadow .25s}
+.opt i{width:20px;height:20px;border-radius:50%;border:1.5px solid var(--paper-line);display:grid;place-items:center;flex:none;transition:border-color .25s}
+.opt i::after{content:"";width:10px;height:10px;border-radius:50%;background:var(--rose);transform:scale(0);transition:transform .35s var(--ease-spring)}
+.opt[aria-checked="true"]{border-color:var(--rose);box-shadow:0 0 0 3px rgba(140,58,69,.12)}
+.opt[aria-checked="true"] i{border-color:var(--rose)}
+.opt[aria-checked="true"] i::after{transform:scale(1)}
+.opt span{flex:1;font:500 15px var(--sans)}
+.opt b{font:500 14px var(--sans);color:var(--ink-soft)}
+textarea{width:100%;min-height:72px;resize:vertical;border-radius:14px;border:1px solid var(--paper-line);background:#fffaf0;padding:12px 14px;font:400 15px/1.4 var(--sans);color:var(--ink)}
+textarea:focus{outline:none;border-color:var(--gold);box-shadow:0 0 0 4px rgba(199,162,90,.18)}
+.foot-row{display:flex;gap:10px;align-items:center}
+.qty{display:flex;align-items:center;border-radius:14px;border:1px solid var(--paper-line);background:#fffaf0}
+.qty button{width:44px;height:50px;display:grid;place-items:center;font-size:18px}
+.qty output{min-width:2ch;text-align:center;font:600 16px var(--sans)}
+.big{flex:1;display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:52px;padding:0 18px;white-space:nowrap;border-radius:14px;background:var(--ink);color:var(--paper);font:600 14px var(--sans);letter-spacing:.04em;transition:transform .3s var(--ease-spring),background .3s}
+.big:hover{background:var(--rose)}
+.big:active{transform:scale(.98)}
+.big.ghost{background:transparent;color:var(--ink);border:1px solid var(--paper-line);flex:none;justify-content:center}
+.big.gold{background:var(--gold);color:#23190c}
+
+.o-title{font-size:34px;font-weight:500;margin:4px 0 2px}
+.o-sub{margin:0;font:400 13px var(--sans);color:var(--ink-faint)}
+.o-list{list-style:none;padding:0;margin:14px 0 0}
+.o-line{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;padding:12px 0;border-bottom:1px dashed rgba(156,122,54,.3);animation:fadeUp .4s var(--ease) both}
+.o-line.out{animation:slideOut .35s var(--ease) forwards}
+@keyframes slideOut{to{opacity:0;transform:translateX(40px);height:0;padding:0;margin:0}}
+.o-name{display:block;font-size:20px;font-weight:600;line-height:1.15}
+.o-main{min-width:0;display:flex;flex-direction:column;gap:2px}
+.o-th{width:52px;height:52px;border-radius:50%;box-shadow:0 0 0 1px var(--paper-line),0 0 0 3px #fffaf0,0 0 0 4px rgba(199,162,90,.4);margin:4px}
+.o-th > .ico{font-size:20px}
+.o-th.plus{display:grid;place-items:center;background:rgba(199,162,90,.12);color:var(--gold-deep);font-size:18px}
+.o-line.sub{padding-left:26px;border-bottom-style:dotted}
+.o-line.sub .o-th{width:34px;height:34px}
+.o-line.sub .o-name{font-size:17px}
+.o-meta{font:400 13px var(--sans);color:var(--ink-soft)}
+.o-note{font-style:italic;font-size:15px;color:var(--rose)}
+.o-right{display:flex;flex-direction:column;align-items:flex-end;gap:6px}
+.o-right .price{font-size:15px}
+.mini{display:flex;align-items:center;border-radius:99px;border:1px solid var(--paper-line);background:#fffaf0}
+.mini button{width:32px;height:32px;display:grid;place-items:center;font-size:14px}
+.mini output{min-width:2ch;text-align:center;font:600 14px var(--sans)}
+.o-total{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:12px;font-family:var(--sans)}
+.o-total span{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-faint)}
+.o-total b{font-size:24px;font-weight:600}
+.o-empty{text-align:center;padding:30px 0 10px;color:var(--ink-soft)}
+.o-empty .ico{font-size:54px;margin:0 auto 10px;color:var(--paper-line);stroke-width:1}
+.o-hint{margin:10px 0 0;font:400 12px/1.5 var(--sans);color:var(--ink-faint);text-align:center}
+
+/* ---------- counter ticket ---------- */
+.ticket-v{position:fixed;inset:0;z-index:80;background:var(--night);display:flex;flex-direction:column;align-items:center;padding:calc(18px + env(safe-area-inset-top,0px)) 16px calc(18px + var(--safe-b));overflow-y:auto;opacity:0;visibility:hidden;transition:opacity .4s,visibility .4s}
+.ticket-v.show{opacity:1;visibility:visible}
+.ticket{width:100%;max-width:460px;margin:auto 0;color:var(--ink);background:var(--paper);padding:28px 24px 30px;position:relative;transform:translateY(30px) rotate(-1deg);transition:transform .7s var(--ease-spring);
+  -webkit-mask:radial-gradient(9px at 50% 0,transparent 97%,#000) 0 0/22px 51% repeat-x,radial-gradient(9px at 50% 100%,transparent 97%,#000) 0 100%/22px 51% repeat-x;
+  mask:radial-gradient(9px at 50% 0,transparent 97%,#000) 0 0/22px 51% repeat-x,radial-gradient(9px at 50% 100%,transparent 97%,#000) 0 100%/22px 51% repeat-x}
+.ticket-v.show .ticket{transform:none}
+.ticket .emblem{width:120px;margin:6px auto 0;color:var(--ink)}
+.t-h{text-align:center;font:600 12px var(--sans);letter-spacing:.3em;text-transform:uppercase;margin-top:12px}
+.t-time{text-align:center;font:400 13px var(--sans);color:var(--ink-soft);margin-top:2px}
+.t-list{list-style:none;margin:20px 0 0;padding:16px 0 0;border-top:2px dashed var(--paper-line)}
+.t-list li{display:grid;grid-template-columns:auto 1fr;gap:0 14px;padding:10px 0;align-items:baseline}
+.t-list li.sub{padding:2px 0 8px 22px}
+.t-list li.sub .t-q{font-size:20px}.t-list li.sub .t-n{font-size:21px}
+.t-q{font:600 28px var(--sans);color:var(--rose);min-width:2.2ch}
+.t-n{font-size:27px;font-weight:600;line-height:1.1}
+.t-n small{display:block;font:500 15px var(--sans);color:var(--ink-soft);margin-top:2px}
+.t-n em{display:block;font-size:18px;color:var(--rose)}
+.t-sum{display:flex;justify-content:space-between;align-items:baseline;margin-top:14px;padding-top:14px;border-top:2px dashed var(--paper-line);font-family:var(--sans)}
+.t-sum b{font-size:28px}
+.t-sum span{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-faint)}
+.t-foot{text-align:center;font-style:italic;font-size:17px;color:var(--ink-soft);margin:16px 0 0}
+.ticket-actions{display:flex;gap:10px;width:100%;max-width:460px;margin-top:18px}
+.ticket-actions .big{justify-content:center;color:var(--moon);border-color:rgba(233,225,207,.3)}
+
+/* ---------- toast & fx ---------- */
+.toast{position:fixed;left:50%;bottom:calc(92px + var(--safe-b));z-index:90;transform:translate(-50%,20px);opacity:0;padding:10px 16px;border-radius:99px;background:var(--paper);color:var(--ink);font:500 13px var(--sans);box-shadow:0 10px 30px rgba(0,0,0,.35);transition:all .4s var(--ease);pointer-events:none;white-space:nowrap;display:flex;align-items:center;gap:8px}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+.toast .ico{color:var(--rose)}
+.fly{position:fixed;z-index:95;width:14px;height:14px;margin:-7px 0 0 -7px;border-radius:50%;background:radial-gradient(circle,#fff6dd,var(--gold) 60%,transparent 70%);box-shadow:0 0 14px 4px rgba(240,220,166,.7);pointer-events:none}
+.spk{position:fixed;z-index:95;pointer-events:none;width:10px;height:10px;margin:-5px 0 0 -5px;color:var(--gold)}
+.trail{position:fixed;z-index:30;pointer-events:none;width:8px;height:8px;margin:-4px 0 0 -4px;color:var(--gold-bright);animation:trail 1s var(--ease) forwards}
+@keyframes trail{from{opacity:1;transform:scale(1)}to{opacity:0;transform:translateY(14px) scale(.2) rotate(90deg)}}
+
+@media (min-width:720px){
+  body{font-size:19px}
+  .thumb{width:96px;height:116px;border-radius:48px 48px 14px 14px}
+  .xgrid{grid-template-columns:repeat(3,1fr)}
+  .feats{grid-template-columns:repeat(4,1fr)}
+  .grid2{grid-template-columns:1fr 1.25fr}
+  .sheet{bottom:50%;border-radius:26px;transform:translateY(calc(50% + 40px)) scale(.96);opacity:0;transition:transform .5s var(--ease),opacity .4s,visibility .4s}
+  .sheet.show{transform:translateY(50%);opacity:1}
+  .grab{display:none}
+  .sheet-body{padding-top:18px}
+  .obar{bottom:20px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+  .rv{opacity:1;transform:none;filter:none}
+  .arch path{stroke-dashoffset:0}
+  .arch .bloom{transform:none}
+  .hero .in{opacity:1}
+}
+
+/* ============ camada minimalista ============ */
+.hero .lang-top{position:absolute;top:calc(10px + env(safe-area-inset-top,0px));right:12px;left:auto;z-index:3}
+.hero .hero-emblem{color:var(--gold)}
+@media (max-width:480px){
+  .steps{flex-direction:column;align-items:center;gap:4px}
+  .hero .steps li+li::before{display:none}
+  .hero .steps li{font-size:13px}
+  .steps li{font-size:13px}
+}
+.hero{background:radial-gradient(90% 55% at 50% 30%,rgba(199,162,90,.07),transparent 70%),var(--night);padding:72px 24px 56px}
+.hero-emblem{width:min(46vw,210px);margin-top:0}
+.hero-emblem::after{display:none}
+.kicker{margin-top:28px;font-size:11px;letter-spacing:.34em;color:var(--moon-soft)}
+.tagline{font-size:clamp(26px,5.6vw,38px);margin-top:10px;font-style:normal}
+.tagline em{font-family:var(--serif);font-style:italic;color:var(--moon);font-size:1em}
+.place{font-size:12px;letter-spacing:.06em;margin-top:10px}
+.status{margin-top:20px;border:0;background:none;backdrop-filter:none;padding:0;font-size:12.5px;color:var(--moon-soft)}
+.status i{width:6px;height:6px;animation:none;box-shadow:none}
+.steps{display:flex;justify-content:center;flex-wrap:wrap;gap:6px 0;margin-top:40px;max-width:none}
+.steps li{padding:0;background:none;border:0;border-radius:0;font-size:12.5px}
+.steps li::before{display:none}
+.steps li b{display:inline;font-weight:500;font-size:12.5px}
+.steps li+li::before{content:"—";display:inline;font:inherit;color:var(--gold);margin:0 12px;font-style:normal;font-size:12.5px}
+.cta{margin-top:26px;padding:14px 26px;background:var(--gold);box-shadow:none;letter-spacing:.16em;font-size:12.5px;font-weight:500}
+.cta::after{display:none}
+.cta:hover{transform:none;background:var(--gold-bright)}
+.lang{backdrop-filter:none;background:transparent;border-color:rgba(199,162,90,.3)}
+.bar{background:rgba(14,24,20,.94);border-bottom-color:rgba(233,225,207,.06)}
+.paper{background:var(--paper);padding:64px 0 120px}
+.paper::before,.house::before{display:none}
+.menu-head h2{font-family:var(--serif);font-weight:400;font-size:clamp(40px,9vw,56px);letter-spacing:-.01em}
+.menu-head p{font-size:17px;color:var(--ink-faint)}
+.tools{box-shadow:0 1px 0 var(--paper-line);border-radius:0;background:var(--paper)}
+.search input{background:#fbf7ee;box-shadow:none;height:46px}
+.fchip{background:transparent}
+.cat{margin-top:64px}
+.cat-h{padding-bottom:14px;border-bottom:1px solid var(--paper-line)}
+.cat-t small{letter-spacing:.2em;color:var(--ink-faint);font-size:10.5px}
+.cat-t h3{font-size:clamp(28px,6.4vw,36px)}
+.cat-t p{font-size:16px;color:var(--ink-faint)}
+.cover{border-radius:14px;box-shadow:none;aspect-ratio:16/8;max-height:260px;margin-bottom:20px}
+.cover::after{display:none}
+.cover.on img.ok{transition:opacity .8s var(--ease),transform 1.4s var(--ease)}
+.cover img{transform:scale(1.06)}
+[data-ph]{background:#ece3d0;animation:none}
+.item{padding:16px 0;border-bottom:1px solid rgba(216,200,166,.55);border-radius:0;gap:16px}
+.item:hover{background:none}
+.thumb{width:72px;height:72px;border-radius:12px;box-shadow:none;margin:0}
+.item:hover .thumb img.ok{transform:none}
+.item-name{font-size:20px;font-weight:500}
+.item-desc{font-size:16px;color:var(--ink-faint)}
+.item-foot .price{background:none;padding:0;font-weight:500;font-size:14.5px}
+.tag{background:none;padding:0;color:#5f7a58;font-size:11px}
+.tag + .tag::before{content:"·";margin-right:6px;color:var(--paper-line)}
+.add{width:38px;height:38px;font-size:17px;box-shadow:none;background:transparent;color:var(--ink);border:1px solid var(--ink)}
+.add:hover{background:var(--ink);color:var(--paper)}
+.add .qn{font-size:14px}
+.stepper{box-shadow:none}
+.stepper button{width:32px;height:32px;font-size:16px}
+.item.xi{border:1px solid rgba(216,200,166,.7);background:transparent;border-radius:12px}
+.add.sm{width:30px;height:30px;font-size:14px}
+.house{background:var(--night);padding:88px 0 32px}
+.story p:first-child::first-letter{float:none;font:inherit;padding:0;color:inherit}
+.story{font-size:19px;color:#cfc6b2}
+.award{margin:28px auto 0;max-width:58ch;font-size:18px;color:var(--moon);text-align:left;padding-left:14px;border-left:1px solid var(--gold)}
+.award small{display:block;font:400 12px var(--sans);color:var(--moon-soft);margin-top:2px}
+.feats{gap:0;margin-top:44px;border-top:1px solid rgba(233,225,207,.1)}
+.feat{background:none;border:0;border-bottom:1px solid rgba(233,225,207,.1);border-radius:0;padding:20px 4px}
+.feat::before{display:none}
+.feat:hover{transform:none}
+.feat .ico{font-size:22px}
+.feat h4{font-size:19px;font-weight:500;margin-top:10px}
+.card{background:transparent;border-color:rgba(233,225,207,.1)}
+.card h3{font-size:22px}
+.map iframe{filter:grayscale(1) contrast(.9) brightness(.85)}
+.map{border-color:rgba(233,225,207,.1)}
+.btn.primary{background:transparent;color:var(--gold);border-color:var(--gold)}
+.btn.primary .ico{color:var(--gold)}
+.btn.primary:hover{background:rgba(199,162,90,.1)}
+footer .emblem{width:84px}
+.obar{box-shadow:0 12px 30px -12px rgba(0,0,0,.5);border-radius:16px}
+.obar .go{border-radius:10px;font-weight:500}
+.sheet{background:#fbf7ee}
+.d-photo::after{background:linear-gradient(transparent,#fbf7ee)}
+.d-art{height:110px;background:none}
+.d-art .ico{animation:none;font-size:64px}
+.d-name{font-weight:500;font-size:30px}
+.d-desc{font-size:18px;color:var(--ink-faint)}
+.d-x{background:transparent;border-color:var(--paper-line)}
+.opt,.xchip,textarea,.qty{background:#fff}
+.opt[aria-checked="true"]{box-shadow:none;border-color:var(--ink)}
+.opt[aria-checked="true"] i{border-color:var(--ink)}
+.opt i::after{background:var(--ink)}
+.big{border-radius:12px;font-weight:500}
+.o-th{box-shadow:none;border-radius:10px}
+.ticket{-webkit-mask:none;mask:none;border-radius:16px;transform:translateY(20px)}
+.toast{box-shadow:0 8px 24px rgba(0,0,0,.25)}
+@media (min-width:720px){
+  .thumb{width:88px;height:88px;border-radius:14px}
+  .feats{column-gap:28px}
+}
+
+/* ============ barra de navegação (mobile first) ============ */
+.grid2{grid-template-columns:minmax(0,1fr)}
+.btn{min-width:0;overflow-wrap:anywhere;text-align:center}
+@media (min-width:720px){ .grid2{grid-template-columns:minmax(0,1fr) minmax(0,1.25fr)} }
+.bar{background:rgba(14,24,20,.96);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid rgba(233,225,207,.07);transform:translateY(-100%);transition:transform .45s var(--ease)}
+.bar.show{transform:none}
+.bar.show.slim{transform:translateY(calc(-1 * (48px + env(safe-area-inset-top,0px))))}
+.bar-in{max-width:1180px;margin:0 auto}
+.bar-row{display:grid;grid-template-columns:1fr auto;grid-template-areas:"brand actions" "tabs tabs";align-items:center;padding-top:env(safe-area-inset-top,0px)}
+.brand{grid-area:brand;display:flex;align-items:center;height:48px;padding:0 16px;text-decoration:none}
+.brand .emblem{width:52px;color:var(--gold)}
+.actions{grid-area:actions;display:flex;align-items:center;gap:2px;padding-right:8px}
+.icon-btn{width:40px;height:40px;font-size:19px;color:var(--moon)}
+.lang-mini{display:flex;align-items:center;height:40px;padding:0 6px;font:600 11px var(--sans);letter-spacing:.12em}
+.lang-mini button{height:28px;padding:0 6px;color:rgba(233,225,207,.4);border-radius:6px;transition:color .25s}
+.lang-mini button[aria-pressed="true"]{color:var(--moon)}
+.lang-mini button + button{border-left:1px solid rgba(233,225,207,.18);border-radius:0 6px 6px 0}
+.cancel{display:none;height:40px;padding:0 12px;font:500 14px var(--sans);color:var(--gold)}
+.tabs{grid-area:tabs;display:flex;align-items:stretch;min-width:0;border-top:1px solid rgba(233,225,207,.06)}
+.cats-btn{flex:none;width:48px;display:grid;place-items:center;font-size:17px;color:var(--moon-soft);border-right:1px solid rgba(233,225,207,.08)}
+.cats-btn:hover{color:var(--moon)}
+.chips{flex:1;min-width:0;display:flex;gap:0;padding:0 6px;overflow-x:auto;scrollbar-width:none;scroll-snap-type:x proximity;position:relative;--fl:#000;--fr:#000;-webkit-mask:linear-gradient(90deg,var(--fl),#000 28px,#000 calc(100% - 28px),var(--fr));mask:linear-gradient(90deg,var(--fl),#000 28px,#000 calc(100% - 28px),var(--fr))}
+.chips.fl{--fl:transparent}.chips.fr{--fr:transparent}
+.chip{flex:none;height:44px;padding:0 13px;border-radius:0;font:400 14.5px var(--sans);color:rgba(233,225,207,.55);scroll-snap-align:center;transition:color .25s}
+.chip:hover{color:var(--moon)}
+.chip.active{color:var(--moon)}
+.chip-ind{top:auto;bottom:0;height:2px;border-radius:2px;background:var(--gold);z-index:1}
+.bsearch{display:none;grid-area:brand;align-items:center;gap:8px;height:48px;padding:0 4px 0 16px;min-width:0}
+.bsearch .ico{flex:none;font-size:17px;color:var(--moon-soft)}
+.bsearch input{flex:1;min-width:0;height:40px;border:0;background:none;color:var(--moon);font:400 16px var(--sans);outline:none}
+.bsearch input::placeholder{color:rgba(233,225,207,.4)}
+.bsearch input::-webkit-search-cancel-button{-webkit-appearance:none}
+.bsearch .clear{position:static;width:32px;height:32px;display:grid;place-items:center;border-radius:50%;color:var(--moon-soft);opacity:0;pointer-events:none}
+.bsearch.has .clear{opacity:1;pointer-events:auto}
+.bfilters{display:none;gap:8px;padding:0 16px 10px}
+.bfilters .fchip{border-color:rgba(233,225,207,.16);color:var(--moon-soft);background:none;padding:6px 12px}
+.bfilters .fchip[aria-pressed="true"]{background:var(--gold);border-color:var(--gold);color:#23190c}
+/* modo busca */
+.bar.searching .brand,.bar.searching #barSearch,.bar.searching .lang-mini{display:none}
+.bar.searching .bsearch{display:flex}
+.bar.searching .cancel{display:block}
+.bar.searching .tabs{display:none}
+.bar.searching .bfilters{display:flex}
+.bar.searching{border-bottom-color:rgba(199,162,90,.3)}
+/* ferramentas no cardápio (sem sticky) */
+.tools{position:static;margin:28px 0 0;padding:0;background:none;box-shadow:none;border-radius:0}
+.search.fake{width:100%;height:46px;display:flex;align-items:center;gap:12px;padding:0 16px;border:1px solid var(--paper-line);border-radius:99px;background:#fbf7ee;font:400 15px var(--sans);color:var(--ink-faint);text-align:left;cursor:text}
+.search.fake .ico{position:static;font-size:17px}
+.cat{scroll-margin-top:calc(var(--barB,90px) + 8px)}
+/* lista de categorias */
+.cat-list{list-style:none;margin:14px 0 4px;padding:0}
+.cat-list button{width:100%;display:flex;align-items:center;gap:14px;padding:10px 0;border-bottom:1px solid var(--paper-line);text-align:left}
+.cat-list li:last-child button{border-bottom:0}
+.cl-th{flex:none;width:52px;height:52px;border-radius:12px}
+.cl-th > .ico{font-size:20px}
+.cl-t{flex:1;min-width:0;display:flex;flex-direction:column}
+.cl-t b{font-weight:500;font-size:20px;line-height:1.15}
+.cl-t small{font:400 12.5px var(--sans);color:var(--ink-faint);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cl-n{flex:none;min-width:28px;height:24px;padding:0 8px;border-radius:99px;display:grid;place-items:center;font:500 12px var(--sans);color:var(--ink-soft);background:rgba(199,162,90,.14)}
+.sheet-foot:empty{display:none}
+/* desktop: uma linha só */
+@media (min-width:900px){
+  .bar-row{grid-template-columns:auto 1fr auto;grid-template-areas:"brand tabs actions";padding:0 12px}
+  .brand{height:64px;padding:0 20px 0 12px}
+  .brand .emblem{width:60px}
+  .tabs{border-top:0;justify-content:center}
+  .cats-btn{display:none}
+  .chips{flex:0 1 auto;padding:0 14px}
+  .chip{height:64px;padding:0 13px;font-size:14px}
+  .bsearch{grid-area:tabs;max-width:560px;width:100%;justify-self:center;height:44px;margin:10px 0;padding:0 6px 0 16px;border:1px solid rgba(233,225,207,.14);border-radius:99px}
+  .bar.searching .brand{display:flex}
+  .bfilters{justify-content:center;padding:0 16px 12px}
+  .bar.show.slim{transform:none}
+}
+@media (min-width:1180px){ .chip{padding:0 16px} }
+</style>
+</head>
+<body>
+
+<!-- icon sprite -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-cup" viewBox="0 0 24 24"><path d="M4 9h12v4a6 6 0 0 1-6 6h0a6 6 0 0 1-6-6V9z"/><path d="M16 10.5h1.5a2.5 2.5 0 0 1 0 5H15.4"/><path d="M3 21h14"/><path d="M8 3.5c-.8 1 .8 2 0 3M12 3.5c-.8 1 .8 2 0 3"/></symbol>
+    <symbol id="i-choc" viewBox="0 0 24 24"><path d="M5 8h11l-1 11a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 8z"/><path d="M16 11h1.5a2 2 0 0 1 0 4H15.6"/><path d="M5.3 11.5c2 .8 3.5-.8 5.5 0s3.3.6 4.9 0"/><path d="M9 2.5c-.7.9.7 1.9 0 3M12.5 2.5c-.7.9.7 1.9 0 3"/></symbol>
+    <symbol id="i-iced" viewBox="0 0 24 24"><path d="M6 7h12l-1.6 13.2a1 1 0 0 1-1 .8H8.6a1 1 0 0 1-1-.8L6 7z"/><path d="M5 7h14"/><path d="M13 7l2.5-5H18"/><rect x="8.5" y="10" width="3" height="3" rx=".6"/><rect x="11.5" y="13.5" width="3" height="3" rx=".6"/></symbol>
+    <symbol id="i-cake" viewBox="0 0 24 24"><path d="M3 20h18"/><path d="M5 20v-7h14v7"/><path d="M5 15.5c1.2 1 2.3 1 3.5 0s2.3-1 3.5 0 2.3 1 3.5 0 2.3-1 3.5 0"/><path d="M7 13V10.5a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1V13"/><path d="M12 9.5V6"/><path d="M12 3c.9 1 .9 2 0 3-.9-1-.9-2 0-3z"/></symbol>
+    <symbol id="i-croissant" viewBox="0 0 24 24"><path d="M2.5 15.5C3 10 7 6.5 12 6.5s9 3.5 9.5 9"/><path d="M2.5 15.5c1.5 1.5 3.5 1.8 5 1.2L12 18l4.5-1.3c1.5.6 3.5.3 5-1.2"/><path d="M7.5 16.7 8.6 7.9M12 18V6.5M16.5 16.7 15.4 7.9"/><path d="M4 12.2c1 .3 2 .3 3.2 0M20 12.2c-1 .3-2 .3-3.2 0"/></symbol>
+    <symbol id="i-basket" viewBox="0 0 24 24"><path d="M3 10h18l-1.8 9.2a1 1 0 0 1-1 .8H5.8a1 1 0 0 1-1-.8L3 10z"/><path d="M7 10a5 5 0 0 1 10 0"/><path d="M3.6 13h16.8M4.2 16h15.6M9 10l.6 10M15 10l-.6 10"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7.5-4.6-7.5-10A4.3 4.3 0 0 1 12 7.2 4.3 4.3 0 0 1 19.5 10c0 5.4-7.5 10-7.5 10z"/></symbol>
+    <symbol id="i-piano" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="M3 12h18"/><path d="M7.5 12v7M12 12v7M16.5 12v7"/><path d="M6 12V15M10.5 12V15M15 12V15M19.5 12v3" stroke-width="2.4"/><path d="M8 8.5h8"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><path d="M8 11V8a4 4 0 0 1 8 0v3"/><path d="M12 21.5s-6-3.5-6-8A3.4 3.4 0 0 1 12 11.4a3.4 3.4 0 0 1 6 2.1c0 4.5-6 8-6 8z"/></symbol>
+    <symbol id="i-house" viewBox="0 0 24 24"><path d="M4 11l8-6.5 8 6.5"/><path d="M6 9.5V20h12V9.5"/><path d="M10 20v-5h4v5"/><circle cx="12" cy="10.5" r="1.3"/><path d="M8.5 4v2.5"/></symbol>
+    <symbol id="i-lights" viewBox="0 0 24 24"><path d="M2 5c3 4 7 6 10 6s7-2 10-6"/><circle cx="5" cy="9.5" r="1.3"/><circle cx="9" cy="12.2" r="1.3"/><circle cx="15" cy="12.2" r="1.3"/><circle cx="19" cy="9.5" r="1.3"/><path d="M12 21s-3.5-2.2-3.5-4.6A1.9 1.9 0 0 1 12 15.4a1.9 1.9 0 0 1 3.5 1c0 2.4-3.5 4.6-3.5 4.6z"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M12 6.5C10 5 7 4.5 3.5 5v13c3.5-.5 6.5 0 8.5 1.5 2-1.5 5-2 8.5-1.5V5C17 4.5 14 5 12 6.5z"/><path d="M12 6.5v13"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M5 19c0-8 5-13 15-14-1 10-6 15-14 15"/><path d="M5 19c3-4 6-7 10-9.5"/></symbol>
+    <symbol id="i-wheat" viewBox="0 0 24 24"><path d="M12 22V9"/><path d="M12 13c-2.5 0-4-1.5-4-4 2.5 0 4 1.5 4 4zM12 13c2.5 0 4-1.5 4-4-2.5 0-4 1.5-4 4zM12 9c-2.2 0-3.5-1.3-3.5-3.5C10.7 5.5 12 6.8 12 9zM12 9c2.2 0 3.5-1.3 3.5-3.5C13.3 5.5 12 6.8 12 9zM12 5.5c0-1.5.5-2.5 0-3.5-.5 1-0 2 0 3.5z"/><path d="M4 4l16 16"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3l2.4 5.6 6.1.5-4.6 4 1.4 5.9L12 16l-5.3 3 1.4-5.9-4.6-4 6.1-.5z"/></symbol>
+    <symbol id="i-share" viewBox="0 0 24 24"><circle cx="8" cy="9" r="3"/><circle cx="16.5" cy="10" r="2.5"/><path d="M3 19c.5-3 2.5-5 5-5s4.5 2 5 5M13.5 15.2c.8-.8 1.8-1.2 3-1.2 2.2 0 3.7 1.7 4 4"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.2-4.2"/></symbol>
+    <symbol id="i-bag" viewBox="0 0 24 24"><path d="M5 8h14l-1 12H6L5 8z"/><path d="M9 10V7a3 3 0 0 1 6 0v3"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6.5-6-6.5-11a6.5 6.5 0 0 1 13 0c0 5-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h3.5l1.7 4.3-2.2 1.4a11 11 0 0 0 6.3 6.3l1.4-2.2L20 15.5V19a1.5 1.5 0 0 1-1.6 1.5C10.6 20 4 13.4 3.5 5.6A1.5 1.5 0 0 1 5 4z"/></symbol>
+    <symbol id="i-wa" viewBox="0 0 24 24"><path d="M4 20l1.2-4A8.3 8.3 0 1 1 8.3 19z"/><path d="M9 8.5c0 3.5 3 6.5 6.5 6.5l1-1.6-2-1-1 .8a4.5 4.5 0 0 1-2.2-2.2l.8-1-1-2z"/></symbol>
+    <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r=".6"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></symbol>
+    <symbol id="i-ticket" viewBox="0 0 24 24"><path d="M4 6h16v3.5a2.5 2.5 0 0 0 0 5V18H4v-3.5a2.5 2.5 0 0 0 0-5z"/><path d="M14 6v2M14 11v2M14 16v2"/></symbol>
+    <symbol id="i-milk" viewBox="0 0 24 24"><path d="M9 2.5h6M9.5 2.5v3L7 9v11.5a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V9l-2.5-3.5v-3"/><path d="M7 12.5h10"/><path d="M4 4l16 16"/></symbol>
+    <symbol id="i-cube" viewBox="0 0 24 24"><path d="M12 3l7.5 4v8.5L12 20l-7.5-4.5V7z"/><path d="M4.5 7L12 11l7.5-4M12 11v9"/><path d="M3 3l18 18"/></symbol>
+    <symbol id="i-bottle" viewBox="0 0 24 24"><path d="M10 2.5h4M10.5 2.5v3.2c0 .8-.4 1.4-1 2-.8.8-1.5 1.8-1.5 3.3v9a1.5 1.5 0 0 0 1.5 1.5h5a1.5 1.5 0 0 0 1.5-1.5v-9c0-1.5-.7-2.5-1.5-3.3-.6-.6-1-1.2-1-2V2.5"/><path d="M8 13h8v5H8z"/></symbol>
+    <symbol id="i-gift" viewBox="0 0 24 24"><rect x="3.5" y="9" width="17" height="4" rx="1"/><path d="M5 13v7.5h14V13M12 9v11.5"/><path d="M12 9c-1.5-3.5-5.5-4.5-5.5-2S10 9 12 9zM12 9c1.5-3.5 5.5-4.5 5.5-2S14 9 12 9z"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M12 5v14M6 13l6 6 6-6"/></symbol>
+    <symbol id="i-grid" viewBox="0 0 24 24"><rect x="4" y="4" width="6.5" height="6.5" rx="1.5"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.5"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.5"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.5"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 0c.8 7 4 11.2 12 12-8 .8-11.2 5-12 12-.8-7-4-11.2-12-12 8-.8 11.2-5 12-12z" fill="currentColor" stroke="none"/></symbol>
+  </defs>
+</svg>
+
+<div class="veil" id="veil" aria-hidden="true">
+  <div><span class="emblem"></span><p>Café &amp; Confeitaria</p></div>
+</div>
+
+<!-- sticky bar -->
+<header class="bar" id="bar">
+  <div class="bar-in">
+    <div class="bar-row">
+      <a class="brand" href="#top" aria-label="Sans Souci"><span class="emblem"></span></a>
+      <nav class="tabs" aria-label="Categorias">
+        <button class="cats-btn" id="catsBtn" data-i18n-aria="allCats"><svg class="ico"><use href="#i-grid"/></svg></button>
+        <div class="chips" id="chips"><span class="chip-ind" id="chipInd"></span></div>
+      </nav>
+      <div class="bsearch" id="searchBox">
+        <svg class="ico"><use href="#i-search"/></svg>
+        <input id="q" type="search" autocomplete="off" enterkeyhint="search" data-i18n-aria="search">
+        <button class="clear" id="qClear" type="button" data-i18n-aria="clear"><svg class="ico"><use href="#i-x"/></svg></button>
+      </div>
+      <div class="actions">
+        <button class="icon-btn" id="barSearch" data-i18n-aria="search"><svg class="ico"><use href="#i-search"/></svg></button>
+        <button class="cancel" id="qCancel" data-i18n="cancel"></button>
+        <div class="lang-mini" role="group" aria-label="Idioma / Language"><button data-set-lang="pt" aria-pressed="true">PT</button><button data-set-lang="en" aria-pressed="false">EN</button></div>
+      </div>
+    </div>
+    <div class="bfilters filters" id="barFilters" role="group"></div>
+  </div>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <canvas id="lights" aria-hidden="true"></canvas>
+    <div class="lang-mini lang-top in" role="group" aria-label="Idioma / Language" style="animation-delay:.2s"><button data-set-lang="pt" aria-pressed="true">PT</button><button data-set-lang="en" aria-pressed="false">EN</button></div>
+
+    <h1 class="sr">Sans Souci Café e Confeitaria</h1>
+    <span class="emblem hero-emblem in" style="animation-delay:.1s" role="img" aria-label="Sans Souci"></span>
+    <p class="kicker in" style="animation-delay:.35s" data-i18n="kicker"></p>
+    <p class="tagline in" style="animation-delay:.5s" data-i18n-html="tagline"></p>
+    <p class="place in" style="animation-delay:.65s" data-i18n="place"></p>
+    <div class="status in" id="status" style="animation-delay:.8s" role="status"><i></i><span></span></div>
+    <ol class="steps in" style="animation-delay:.95s" id="steps"></ol>
+    <a class="cta in" href="#cardapio" style="animation-delay:1.1s"><span data-i18n="cta"></span><svg class="ico" style="font-size:16px"><use href="#i-arrow"/></svg></a>
+  </section>
+
+  <!-- MENU -->
+  <section class="paper" id="cardapio" aria-labelledby="menuTitle">
+    <div class="wrap">
+      <div class="menu-head rv">
+        <h2 id="menuTitle" data-i18n="menu"></h2>
+        <p data-i18n="menuSub"></p>
+      </div>
+
+      <div class="tools" id="tools">
+        <button class="search fake" id="openSearch" type="button"><svg class="ico"><use href="#i-search"/></svg><span data-i18n="searchPh"></span></button>
+        <div class="filters" id="filters" role="group"></div>
+      </div>
+
+      <div id="menu"></div>
+      <div class="empty" id="empty"><span class="emblem"></span><b data-i18n="emptyT"></b><span data-i18n="emptyD"></span></div>
+      <p class="note rv" data-i18n="menuNote"></p>
+    </div>
+  </section>
+
+  <!-- HOUSE -->
+  <section class="house" id="casa" aria-labelledby="houseTitle">
+    <div class="wrap" style="max-width:960px">
+      <p class="eyebrow rv" data-i18n="houseEy"></p>
+      <h2 class="h2 rv" id="houseTitle" data-i18n="houseT"></h2>
+      <div class="story rv" id="story"></div>
+      <p class="award rv"><span data-i18n="award"></span> <small>Veja Comer &amp; Beber · 2013/2014</small></p>
+      <div class="feats" id="feats"></div>
+
+      <div class="grid2">
+        <div class="card rv">
+          <h3><svg class="ico"><use href="#i-clock"/></svg><span data-i18n="hoursT"></span></h3>
+          <ul class="hours" id="hours"></ul>
+          <p class="hours-note" data-i18n="hoursNote"></p>
+        </div>
+        <div class="card rv" style="--d:.1s">
+          <h3><svg class="ico"><use href="#i-pin"/></svg><span data-i18n="whereT"></span></h3>
+          <p class="addr">Av. Dr. Januário Miraglia, 3260<small>Jaguaribe · Campos do Jordão – SP · 12460-000</small></p>
+          <div class="map"><iframe title="Mapa — Sans Souci" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Sans%20Souci%20Caf%C3%A9%20e%20Confeitaria%40-22.7261016,-45.5798856&z=16&output=embed"></iframe></div>
+          <div class="actions">
+            <a class="btn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/place/Sans+Souci+Caf%C3%A9+e+Confeitaria/@-22.7261016,-45.5824605,17z/data=!3m1!4b1!4m6!3m5!1s0x94cc884adc8effc9:0x58e3202b00547a67!8m2!3d-22.7261016!4d-45.5798856!16s%2Fg%2F11b7vj2l09"><svg class="ico"><use href="#i-pin"/></svg><span data-i18n="route"></span></a>
+            <a class="btn" href="tel:+551236633922"><svg class="ico"><use href="#i-phone"/></svg>(12) 3663-3922</a>
+            <a class="btn" target="_blank" rel="noopener" href="https://wa.me/5512981161578"><svg class="ico"><use href="#i-wa"/></svg>WhatsApp</a>
+            <a class="btn" style="grid-column:1/-1" target="_blank" rel="noopener" href="https://www.instagram.com/sanssoucicafeeconfeitaria/"><svg class="ico"><use href="#i-ig"/></svg>@sanssoucicafeeconfeitaria</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <span class="emblem"></span>
+      <p data-i18n="foot"></p>
+      <small data-i18n-html="footSmall"></small>
+    </footer>
+  </section>
+</main>
+
+<!-- order bar -->
+<div class="obar" id="obar">
+  <span class="bag" id="bag"><svg class="ico"><use href="#i-bag"/></svg><b id="bagN">0</b></span>
+  <div class="obar-t"><small data-i18n="myOrder"></small><span id="obarTotal"></span></div>
+  <button class="go" id="openOrder" data-i18n="view"></button>
+</div>
+
+<div class="scrim" id="scrim"></div>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle">
+  <div class="grab" id="grab"><i></i></div>
+  <button class="sheet-x" id="sheetX" data-i18n-aria="close"><svg class="ico"><use href="#i-x"/></svg></button>
+  <div class="sheet-body" id="sheetBody"></div>
+  <div class="sheet-foot" id="sheetFoot"></div>
+</div>
+
+<div class="ticket-v" id="ticketV" role="dialog" aria-modal="true" aria-label="Pedido para o balcão">
+  <div class="ticket" id="ticket"></div>
+  <div class="ticket-actions">
+    <button class="big ghost" id="ticketBack" style="flex:1" data-i18n="back"></button>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"><svg class="ico"><use href="#i-heart"/></svg><span></span></div>
+
+<script>
+/* =========================================================
+   CARDÁPIO — edite aqui. Fonte: catálogo atual da casa (Wix).
+   n: nome (texto ou {pt,en}) · d: descrição curta · x: detalhes (painel)
+   p: preço em R$ · o: opções [[rótulo, preço], ...]
+   i: foto no CDN da Wix ("hash.ext" do arquivo 91d627_hash~mv2.ext)
+   tags: gf (sem glúten) · lf (sem lactose) · sf (zero açúcar) · vg (vegano)
+   ========================================================= */
+const S2 = (pt,en)=>({pt,en});
+const PM = [S2("Pequeno","Small"), S2("Grande","Large")];
+const KIT_HOURS = S2(
+  "Disponível: seg a qui até 17h30 · sex, sáb e feriados até 18h30 · dom até 17h30.",
+  "Available: Mon–Thu until 5:30 pm · Fri, Sat & holidays until 6:30 pm · Sun until 5:30 pm.");
+
+const MENU = [
+  { id:"kits", nav:S2("Kits","Kits"), icon:"basket", cover:"e3630e627d7e412abb14f724b9fad523.png",
+    t:S2("Kits & Piqueniques","Kits & Picnics"), s:S2("Para dividir, presentear ou se mimar","To share, to gift, or to treat yourself"),
+    items:[
+      {id:"piquenique", n:"Piquenique", i:"e3630e627d7e412abb14f724b9fad523.png", p:229.90,
+        d:S2("Mini doces e mini salgados para dividir, com 2 bebidas.","Mini pastries and savouries to share, with 2 drinks."),
+        x:S2("Mini doces: 2 fatias de bolo, 2 tortas de maçã, 1 bolo Red Velvet, 2 choux, 2 palhas italianas, 2 brownies, 2 cheesecakes e 2 cookies.\nMini salgados: pães de brioche, 2 folhados, 2 quiches e 2 croissants simples.\nInclui duas bebidas do menu de bebidas quentes, refrigerantes, sucos ou água.",
+             "Mini sweets: 2 slices of cake, 2 apple tarts, 1 red velvet cake, 2 choux, 2 palhas italianas, 2 brownies, 2 cheesecakes and 2 cookies.\nMini savouries: brioche buns, 2 puff pastries, 2 quiches and 2 plain croissants.\nIncludes two drinks from the hot drinks, soft drinks, juices or water menu."), avail:true},
+      {id:"meu-agrado", n:"Meu Agrado", i:"66f3ff589b8f4899867068a37fd3bdbd.png", p:125.90,
+        d:S2("Seleção individual de mini doces e mini salgados, com 1 bebida.","An individual selection of mini pastries and savouries, with 1 drink."),
+        x:S2("Mini doces: 1 fatia de bolo, 1 torta de maçã, 1 bolo Red Velvet, 1 choux, 1 palha italiana, 1 brownie e 1 cheesecake.\nMini salgados: pão de brioche, 1 folhado, 1 quiche e 1 croissant simples.\nInclui uma bebida do menu de bebidas quentes, refrigerantes, sucos ou água.",
+             "Mini sweets: 1 slice of cake, 1 apple tart, 1 red velvet cake, 1 choux, 1 palha italiana, 1 brownie and 1 cheesecake.\nMini savouries: brioche bun, 1 puff pastry, 1 quiche and 1 plain croissant.\nIncludes one drink from the hot drinks, soft drinks, juices or water menu."), avail:true},
+      {id:"crianca-feliz", n:"Criança Feliz", i:"1bc26bdf36024b26a954dcfc5cfe4e24.png", p:84.90,
+        d:S2("Kit infantil com cookies, cupcake, frutas e mini salgados, com bebida.","A kids’ kit with cookies, a cupcake, fruit and mini savouries, with a drink."),
+        x:S2("Mini doces: 2 cookies, 1 cupcake e 1 cumbuca de frutas (banana, maçã e morango).\nMini salgados: 1 pão de brioche e 2 folhados.\nInclui bebida: delícias quentes, refrigerante, suco ou água.",
+             "Mini sweets: 2 cookies, 1 cupcake and a bowl of fruit (banana, apple and strawberry).\nMini savouries: 1 brioche bun and 2 puff pastries.\nIncludes a drink: hot drinks, soft drink, juice or water."), avail:true},
+      {id:"kit-alegria", n:"Kit Alegria", i:"804fce2ed47e43a4a23a3729a2b291e7.png", p:84.90,
+        d:S2("1 bebida pequena, 1 bolo e 1 croissant ou folhado da sua preferência.","1 small drink, 1 cake and 1 croissant or puff pastry of your choice.")}
+    ]},
+  { id:"doces", nav:S2("Doces","Sweets"), icon:"cake", cover:"185d0afe574e40b99455622fe5b4705a.png",
+    t:S2("Delícias Doces","Sweet Delights"), s:S2("Bolos, tortas e sobremesas da nossa confeitaria","Cakes, tarts and desserts from our pâtisserie"),
+    items:[
+      {id:"passeio-floresta", n:"Passeio na Floresta", i:"4d715a83dc724151b3ef0598bdae58e1.png", p:27, tags:["gf"], d:S2("Bolo de chocolate trufado com compota de frutas vermelhas.","Truffled chocolate cake with red berry compote.")},
+      {id:"afago-mae", n:"Afago de Mãe", i:"5ce111d9d4014a5f8b158e5d063fdeb6.jpg", p:23.50, d:S2("Bolo de iogurte com limão-siciliano e calda de laranja.","Yogurt cake with Sicilian lemon and orange syrup.")},
+      {id:"carinho-vovo", n:"Carinho da Vovó", i:"8f84397ff10e4c9fa2aea5d0f5a81c75.png", p:21.50, d:S2("Bolo de cenoura com raspas de laranja e cobertura de brigadeiro de chocolate ao leite.","Carrot cake with orange zest and milk-chocolate brigadeiro frosting.")},
+      {id:"bosque-outono", n:"Bosque de Outono", i:"0ad1d1f30339410a94a8c6cb46f74c92.png", p:23.50, tags:["lf"], d:S2("Bolo de maçã, passas e nozes.","Apple, raisin and walnut cake.")},
+      {id:"bolo-amor", n:"Bolo do Amor", i:"bbede7db858d4510a11c0d72a83b5a99.png", p:29.50, d:S2("Bolo de nozes com doce de leite.","Walnut cake with dulce de leche.")},
+      {id:"tudo-de-bom", n:"Tudo de Bom", i:"dda3e5ba4adf457a936efdaf4df5985d.png", p:21.50, d:S2("Bolo de chocolate com cobertura de brigadeiro.","Chocolate cake with brigadeiro frosting.")},
+      {id:"beijo-sonhos", n:"Beijo dos Sonhos", i:"8136f3926579416591cab9e623237d57.png", p:31.50, d:S2("Éclair de pistache.","Pistachio éclair.")},
+      {id:"pedacinho-ceu", n:"Pedacinho do Céu", i:"bde09973ab59497a9e3a8ca60acd3822.png", p:31.50, d:S2("Tortinha de limão.","Lemon tartlet.")},
+      {id:"amor-eterno", n:"Amor Eterno", i:"dfb70b5dd59342c1a975b74205430bfc.png", p:32.50, d:S2("Mousse de chocolate com base de frutas vermelhas.","Chocolate mousse on a red berry base.")},
+      {id:"dupla-perfeita", n:"Dupla Perfeita", i:"7400f609ff864d4085c97328eb311888.png", p:32.50, d:S2("Crumble de maçã com sorvete de creme.","Apple crumble with vanilla ice cream.")},
+      {id:"sabor-aconchego", n:"Sabor de Aconchego", i:"5a398c0ea0e74934ad0d82dbd16e6c56.jpg", p:32.50, d:S2("Cheesecake de frutas vermelhas.","Red berry cheesecake.")},
+      {id:"beijo-chocolate", n:"Beijo de Chocolate", i:"185d0afe574e40b99455622fe5b4705a.png", p:32.50, d:S2("Brownie de chocolate com sorvete.","Chocolate brownie with ice cream.")},
+      {id:"queridinho-cafe", n:"Queridinho de Café", i:"4a0898aceea84a79b395883cc30b8c7d.png", p:32.50, d:S2("Entremet de tiramisù com recheio de pão de ló molhadinho de café.","Tiramisù entremet with a coffee-soaked sponge filling.")},
+      {id:"fatia-deuses", n:"Fatia dos Deuses", i:"72dee3046634424d98aca6cff5e5245e.png", p:31.50, d:S2("Torta cookie de banana com doce de leite.","Banana cookie pie with dulce de leche.")},
+      {id:"panacota-diet", n:"Panacota Diet", i:"e0c0362f9f2445d89334632ae1747c00.png", p:32.50, tags:["sf","gf"], d:S2("Iogurte natural, damasco e laranja.","Natural yogurt, apricot and orange.")},
+      {id:"torta-vegana", n:S2("Torta de Chocolate Vegana","Vegan chocolate tart"), i:"7f68883d82f94a99be6d1930e58e5e71.png", p:35.50, tags:["gf","vg"], d:S2("Torta de chocolate com frutas vermelhas.","Chocolate tart with red berries.")},
+      {id:"hora-feliz", n:"Hora Feliz", i:"d704b51821ba4480b611968302291bf9.jpg", p:21.90, d:S2("Cookie tradicional (preço unitário).","Classic cookie (price per unit).")},
+      {id:"bom-caminho", n:"Pedaço de Bom Caminho", i:"1d04a67eca554c929b055ba93ca1574f.jpg", p:26, d:S2("Palha italiana.","Palha italiana — chocolate fudge with biscuit.")},
+      {id:"potinho-feliz", n:"Potinho Feliz", i:"6f18732ea1b94f1cbba7f92b56a1d09d.png", p:25.90, d:S2("Bolo na taça. Consulte os sabores disponíveis.","Cake in a glass. Ask for today’s flavours.")},
+      {id:"croissant-chocolate", n:S2("Croissant de Chocolate","Chocolate croissant"), i:"480503b544694e78b32a9d18fec5612d.jpg", p:29.90},
+      {id:"folhado-maca", n:S2("Folhado de Maçã","Apple puff pastry"), i:"b5632f059af84b50bc4b080f1b375c20.jpg", p:28.90}
+    ]},
+  { id:"salgadas", nav:S2("Salgados","Savoury"), icon:"croissant", cover:"3701b997d24e4716b5543d30e94b8af4.jpg",
+    t:S2("Delícias Salgadas","Savoury Delights"), s:S2("Do forno direto para a mesa","Straight from the oven"),
+    items:[
+      {id:"croissant", n:"Croissant", i:"fd2a1e39e242407fb1d395afeb5eec39.png",
+        o:[[S2("Simples","Plain"),29.90],[S2("Queijo minas","Minas cheese"),29.90],[S2("Presunto & queijo","Ham & cheese"),29.90],[S2("Peito de peru com muçarela","Turkey breast & mozzarella"),29.90]]},
+      {id:"folhado", n:S2("Folhado","Puff pastry"), i:"d6434f2f7f3b41bb9b21eeba235478f9.jpg",
+        o:[[S2("Frango com queijo","Chicken & cheese"),26.90],[S2("Tomate com queijo","Tomato & cheese"),26.90]]},
+      {id:"quiche", n:"Quiche", i:"eb88e3fb21ff46059b907aff5ff1a0b4.png",
+        o:[[S2("Alho-poró com espinafre","Leek & spinach"),26],[S2("Damasco com gorgonzola","Apricot & gorgonzola"),26],[S2("3 queijos","Three cheeses"),26]]},
+      {id:"pao-queijo", n:S2("Pão de Queijo","Pão de queijo · cheese bread"), i:"1c025066ab63411b84d51d13bf75e5c5.png", p:14.90, tags:["gf"], d:S2("Vendido por unidade.","Sold per unit.")},
+      {id:"croque", n:"Croque Sans Souci", i:"7b43a1ef85a0432fa5a43413a04be022.png", p:30.50, d:S2("Pão de brioche, presunto, queijo e molho bechamel.","Brioche, ham, cheese and béchamel sauce.")}
+    ]},
+  { id:"quentes", nav:S2("Quentes","Hot drinks"), icon:"choc", cover:"0dad34a41b5d4ed8bcc44d8d69273a48.png",
+    t:S2("Delícias Quentes","Hot Drinks"), s:S2("Cafés, chocolates e chás para aquecer a serra","Coffees, chocolates and teas for mountain days"),
+    items:[
+      {id:"espresso", n:"Espresso Blend Especial", i:"35d7bd25b5f74bcc9e04883824ce6bfb.png", d:S2("O blend especial da casa.","Our house special blend."), o:[[PM[0],13],[PM[1],17.90]]},
+      {id:"ristretto", n:"Ristretto", i:"30211a285d1c48ba9abe650576c12154.jpeg", p:13, d:S2("Espresso curto e forte, meia xícara.","Short, strong espresso — half a cup.")},
+      {id:"romano", n:"Espresso Romano", i:"9611ce1173d14f749986516a26c0f759.png", d:S2("Espresso com gotas de limão.","Espresso with a few drops of lemon."), o:[[PM[0],14],[PM[1],19.50]]},
+      {id:"carioca", n:"Espresso Carioca", i:"35d7bd25b5f74bcc9e04883824ce6bfb.png", d:S2("Espresso diluído em água.","Espresso lengthened with water."), o:[[PM[0],13],[PM[1],17.90]]},
+      {id:"espresso-chantilly", n:S2("Espresso com Chantilly","Espresso with whipped cream"), i:"19ea9c01f1cc485198fea865195d88d3.png", o:[[PM[0],16.50],[PM[1],20.50]]},
+      {id:"amarula", n:"Espresso Amarula", i:"3bfae23bc2ca40868122749d53adc511.png", p:22, d:S2("Espresso com uma dose de licor Amarula.","Espresso with a shot of Amarula liqueur.")},
+      {id:"macchiato", n:"Macchiato", i:"c262d2e911654e379983663cf05f23d2.png", d:S2("Espresso com crema do leite.","Espresso with a crown of milk foam."), o:[[PM[0],15.50],[PM[1],22]]},
+      {id:"cappuccino", n:"Cappuccino", i:"93f91689a80e423e83af1e1857927ef7.png", d:S2("Espresso, leite vaporizado e chocolate em pó meio amargo.","Espresso, steamed milk and dark cocoa powder."), o:[[PM[0],17.90],[PM[1],23]]},
+      {id:"latte", n:"Latte", i:"faf2bbc07c7c4cb884cce1c257e858e5.png", d:S2("Espresso com leite.","Espresso with milk."), o:[[PM[0],16.50],[PM[1],21.50]]},
+      {id:"latte-brulee", n:"Latte Brûlée", i:"52fadfae90a2485da76dea336eae73a5.png", d:S2("Espresso com leite e casquinha de açúcar.","Espresso with milk and a caramelised sugar crust."), o:[[PM[0],16.50],[PM[1],21.50]]},
+      {id:"moccha", n:"Moccha", i:"48138e67630e48678ca8bb4fe09171ee.png", p:26.90, d:S2("Espresso, leite e ganache de chocolate.","Espresso, milk and chocolate ganache.")},
+      {id:"choc-meio-amargo", n:S2("Chocolate Meio Amargo","Dark hot chocolate"), i:"df4e8c5a258b420b9a903e10a5ebc4e4.png", o:[[PM[0],16.90],[PM[1],24]]},
+      {id:"choc-suico", n:S2("Chocolate Cremoso Suíço","Creamy Swiss hot chocolate"), i:"cbfc154d6e0b457dbac362cf5be4ac06.png", o:[[PM[0],16.90],[PM[1],24]]},
+      {id:"choc-submarino", n:S2("Chocolate Submarino","Chocolate “submarine”"), i:"4bcf368521564e9d88b4a742ad34b8d2.png", p:32.90, d:S2("Acompanha pirulito de chocolate.","Served with a chocolate lollipop.")},
+      {id:"affogato", n:"Affogato", i:"e6f3d441a396434a8f0f76ed2ab57dbc.png", p:22, d:S2("Espresso com uma bola de sorvete.","Espresso with a scoop of ice cream.")},
+      {id:"affogato-pistache", n:S2("Affogato de Pistache","Pistachio affogato"), i:"c7e4893870644ba59f84aa56fb53a10e.png", p:32.90, d:S2("Espresso com gelato Sans Souci, Nutella e pistache.","Espresso with Sans Souci gelato, Nutella and pistachio.")},
+      {id:"cha", n:S2("Chá","Tea"), i:"017b8f4b13e84557b435aff37674db23.png", p:15, d:S2("Consulte os sabores disponíveis.","Ask for available flavours.")}
+    ]},
+  { id:"geladas", nav:S2("Gelados","Iced"), icon:"iced", cover:"bfd667603b234efe8aef6a3c4b2bc63d.png",
+    t:S2("Delícias Geladas","Iced Delights"), s:S2("Cafés gelados e cremosos","Iced and creamy coffees"),
+    items:[
+      {id:"caramelinho", n:"Caramelinho", i:"e6344813ac734c4aa35a7477a8fc3867.png", p:38.90, d:S2("Sorvete de creme, caramelo, raspas de chocolate, espresso e chantilly.","Vanilla ice cream, caramel, chocolate shavings, espresso and whipped cream.")},
+      {id:"agua-na-boca", n:"Água na Boca", i:"accc86131c424f21b9c26114062a9c2c.png", p:38.90, d:S2("Sorvete de creme, leite condensado e espresso.","Vanilla ice cream, condensed milk and espresso.")},
+      {id:"gostosuras", n:"Gostosuras & Travessuras", i:"3251056a44a34dd7912e73b8ae4b4b24.png", p:38.90, d:S2("Sorvete de creme, creme de avelã e espresso.","Vanilla ice cream, hazelnut cream and espresso.")},
+      {id:"divino-sabor", n:"Divino Sabor", i:"bfd667603b234efe8aef6a3c4b2bc63d.png", p:38.90, d:S2("Leite, gelo de espresso, chocolate em pó, chantilly e açúcar.","Milk, espresso ice cubes, cocoa powder, whipped cream and sugar.")},
+      {id:"gostin-amor", n:"Gostin de Amor", i:"24c5b8189ce34ff7afd5d4133dee2145.png", p:38.90, d:S2("Sorvete de creme, espresso, banana e leite condensado.","Vanilla ice cream, espresso, banana and condensed milk.")},
+      {id:"dr-chocolate", n:"Dr. Chocolate", i:"260cb3f730644eefa6a9cb5f63485a48.png", p:25, d:S2("Leite, chocolate em pó, gelo e açúcar.","Milk, cocoa powder, ice and sugar.")}
+    ]},
+  { id:"bebidas", nav:S2("Bebidas","Drinks"), icon:"bottle", cover:"a1a6c28105ec424188875141580f455d.jpg",
+    t:S2("Bebidas","Drinks"), s:S2("Sucos, refrigerantes e água","Juices, soft drinks and water"),
+    items:[
+      {id:"suco-frutas-vermelhas", n:S2("Suco de Frutas Vermelhas","Red berry juice"), i:"6070362805c74e4e9b59d477fc07b0fd.jpg", p:22.90, d:S2("300 ml","300 ml")},
+      {id:"suco-morango", n:S2("Suco de Morango, Laranja e Manjericão","Strawberry, orange & basil juice"), i:"d53d5885a69d4c74a646b28faa1d81a6.jpg", p:22.90},
+      {id:"suco-manga", n:S2("Suco de Manga e Maracujá","Mango & passion fruit juice"), i:"c0a9ce9999f2462c910508c7756e2418.jpg", p:22.90},
+      {id:"suco-maracuja", n:S2("Suco de Maracujá","Passion fruit juice"), i:"4da78c0af491417588deee389d11bb9c.jpg", p:20.90, d:S2("300 ml","300 ml")},
+      {id:"suco-abacaxi", n:S2("Suco de Abacaxi","Pineapple juice"), i:"cd27d8f81e0e439091b448c5ee1570a2.jpg", p:20.90, d:S2("300 ml","300 ml")},
+      {id:"suco-laranja", n:S2("Suco de Laranja","Orange juice"), i:"441e7d20c9c34946827df9155502a477.jpg", p:20.90, d:S2("300 ml","300 ml")},
+      {id:"suco-limao", n:S2("Suco de Limão","Lime juice"), i:"f34508fcca9e4428ba268004a4ed9b35.jpg", p:20.90, d:S2("300 ml","300 ml")},
+      {id:"coca", n:"Coca-Cola", i:"43597795635a4291ade9a257619dd54d.jpg", d:S2("Lata 350 ml","350 ml can"), o:[[S2("Normal","Regular"),12.50],[S2("Zero","Zero"),12.50]]},
+      {id:"guarana", n:"Guaraná", i:"0142017eb38b472db41b043d02a32fbe.jpg", p:12.50, d:S2("Lata 350 ml","350 ml can")},
+      {id:"agua", n:S2("Água Minalba","Minalba water"), i:"fd9d420041474f398a8ddc999dd4b2c7.jpg", d:S2("310 ml","310 ml"), o:[[S2("Sem gás","Still"),7.90],[S2("Com gás","Sparkling"),7.90]]}
+    ]},
+  { id:"turbinada", nav:S2("Adicionais","Extras"), icon:"spark", compact:true,
+    t:S2("Turbine seu pedido","Add a little extra"), s:S2("Adicionais para cafés, chocolates e doces","Add-ons for coffees, chocolates and desserts"),
+    items:[
+      {id:"add-chantilly", n:"Chantilly", p:6, en:"Whipped cream"},
+      {id:"add-ganache", n:"Ganache", p:6},
+      {id:"add-marshmallow", n:"Marshmallow", p:6},
+      {id:"add-sorvete", n:"Sorvete", p:10, en:"Ice cream"},
+      {id:"add-nutella", n:"Nutella", p:10},
+      {id:"add-compota", n:"Compota de frutas vermelhas", p:5, en:"Red berry compote"},
+      {id:"add-manteiga", n:"Manteiga", p:5, en:"Butter"},
+      {id:"add-leite", n:"Leite", p:5, en:"Milk"},
+      {id:"add-leite-vegetal", n:"Leite vegetal", p:9, en:"Plant-based milk"},
+      {id:"add-amarula", n:"Licor Amarula", p:28, en:"Amarula liqueur"}
+    ]},
+  { id:"leve", nav:S2("Para levar","Take home"), icon:"gift", cover:"47f4a78146254566868991f172ddfdcf.jpg",
+    t:S2("Leve pra Casa","Take Home"), s:S2("Bolos, tortas, quiches e geleias para levar","Cakes, tarts, quiches and jams to take away"),
+    items:[
+      {id:"leve-trufado", n:S2("Bolo Trufado de Chocolate","Truffled chocolate cake"), i:"33de2dd4251347a5bfcf5d9ddc0d0faf.jpg", p:165},
+      {id:"leve-maca", n:S2("Bolo de Maçã, Passas e Nozes","Apple, raisin & walnut cake"), i:"2f2165afe7384582a27863de531b3392.jpg", p:85},
+      {id:"leve-iogurte", n:S2("Bolo de Iogurte com Limão-Siciliano","Yogurt & Sicilian lemon cake"), i:"844ab91859f04c5180d059047b25d9bf.jpg", p:85},
+      {id:"leve-cenoura", n:S2("Bolo de Cenoura","Carrot cake"), i:"61ceeb5b99e841f895cf045071259522.jpg", p:80},
+      {id:"leve-chocolate", n:S2("Bolo de Chocolate","Chocolate cake"), i:"bf169c67c6bf4459892748d2a6b220ca.png", p:80},
+      {id:"leve-torta-cookie", n:S2("Torta Cookie de Banana e Doce de Leite","Banana & dulce de leche cookie pie"), i:"c5cffae26e0344d0b867f4982ea06066.jpg", p:135},
+      {id:"leve-cheesecake", n:"Cheesecake", i:"4300826221614eae91d42c8ccaf110c4.jpg", p:100},
+      {id:"leve-crumble", n:S2("Crumble de Maçã","Apple crumble"), i:"33a4e3b48e4946bb94b2a213c512c92d.jpg", p:95},
+      {id:"leve-mousse", n:S2("Mousse de Chocolate","Chocolate mousse"), i:"47f4a78146254566868991f172ddfdcf.jpg", p:90},
+      {id:"leve-quiche-damasco", n:S2("Quiche de Damasco","Apricot quiche"), i:"a8470be3c03446aea31cb906e55b20df.jpg", p:75},
+      {id:"leve-quiche-3q", n:S2("Quiche 3 Queijos","Three-cheese quiche"), i:"ecf491c1e2c546c1b69cc8772c1d5226.jpg", p:75},
+      {id:"leve-quiche-alho", n:S2("Quiche de Alho-Poró","Leek quiche"), i:"551db78cf8fb47f4bc230818235485db.jpg", p:65},
+      {id:"leve-geleia", n:S2("Pote de Geleia","Jar of jam"), i:"e4772a55c7364528aad91acf1347d3da.png", p:32}
+    ]}
+];
+// normaliza
+MENU.forEach(c=>c.items.forEach(it=>{
+  if(typeof it.n==="string") it.n = S2(it.n, it.en||it.n);
+  if(it.o) it.opts = it.o.map(([l,p])=>({l: typeof l==="string"?S2(l,l):l, p}));
+  else it.p = it.p;
+  it.tags = it.tags||[];
+  if(it.avail) it.x = S2(it.x.pt+"\n"+KIT_HOURS.pt, it.x.en+"\n"+KIT_HOURS.en);
+}));
+const WIX = (file,w,h)=>{ const [hash,ext]=file.split("."); const f=`91d627_${hash}~mv2.${ext}`; return `https://static.wixstatic.com/media/${f}/v1/fill/w_${w},h_${h},al_c,q_80,enc_auto/${f}`; };
+const EXTRA_CATS = ["quentes","geladas","doces"]; // painéis que oferecem "turbinar"
+
+
+const HOURS = {0:[10,18],1:[10,18],2:[10,18],3:[10,18],4:[10,18],5:[10,19],6:[10,19]}; // 0 = domingo
+
+const T = {
+  pt:{
+    kicker:"Café & Confeitaria", tagline:"Sans souci, <em>sem preocupações.</em>",
+    place:"Campos do Jordão · desde 2011", cta:"Abrir o cardápio",
+    steps:[["Escolha","no cardápio"],["Monte","sua lista"],["Peça","no balcão"]],
+    open:c=>`Aberto agora · até ${c}h`, closedLater:o=>`Fechado · abre hoje às ${o}h`, closedTomorrow:(d,o)=>`Fechado · abre ${d} às ${o}h`,
+    menu:"Cardápio", menuSub:"Toque em um item para ver os detalhes e adicioná-lo à sua lista.",
+    search:"Buscar no cardápio", cancel:"Cancelar", allCats:"Todas as categorias", cats:"Categorias", searchPh:"Buscar: pistache, quiche, chocolate…", clear:"Limpar busca", close:"Fechar",
+    f:{gf:"Sem glúten",lf:"Sem lactose",sf:"Zero açúcar",vg:"Vegano"},
+    tag:{gf:"Sem glúten",lf:"Sem lactose",sf:"Zero açúcar",vg:"Vegano"},
+    extrasL:"Turbine (opcional)", forL:"no",
+    from:"a partir de", emptyT:"Nada por aqui…", emptyD:"Tente outra palavra ou remova um filtro.",
+    menuNote:"Preços em reais, sujeitos a alteração. Imagens ilustrativas. Tem alguma alergia ou restrição? Fale com a nossa equipe no balcão antes de pedir.",
+    add:"Adicionar", update:"Atualizar", remove:"Remover", choose:"Escolha", noteL:"Observação", notePh:"Ex.: bem quente, para viagem…",
+    added:"Adicionado à sua lista", myOrder:"Minha lista", view:"Ver lista",
+    items:n=>n===1?"1 item":`${n} itens`,
+    oTitle:"Minha lista", oSub:"Mostre esta lista no balcão para fazer seu pedido.", total:"Total estimado",
+    oEmpty:"Sua lista está vazia.", oEmptyD:"Adicione delícias do cardápio.", showCounter:"Mostrar no balcão", clearAll:"Limpar",
+    hint:"Esta lista fica só no seu celular. O pedido e o pagamento são feitos no balcão.",
+    tH:"Pedido para o balcão", tFoot:"Obrigado e sans souci!", back:"Voltar ao cardápio",
+    houseEy:"A casa", houseT:"Um castelinho de tijolos, luzes e trepadeiras",
+    story:[
+      "Nascido em 2011 em Campos do Jordão, o Sans Souci começou como um cantinho de café dentro de uma loja e logo virou o motivo da visita. Inspirado nos cafés e brasseries europeus, ocupa um prédio de tijolos coberto de trepadeiras, com flores por todos os lados.",
+      "Aqui a confeitaria é artesanal, os chocolates são produzidos na região e o nome diz tudo: sans souci, em francês, quer dizer “sem preocupações”."
+    ],
+    award:"Eleito o melhor café de Campos do Jordão",
+    feats:[
+      ["lights","Túnel de luzes","Uma entrada de galhos e flores que se acende em corações ao anoitecer."],
+      ["piano","Piano","Música ao vivo, do clássico ao popular, em dias especiais."],
+      ["lock","Cadeados do amor","Um muro inspirado na Pont des Arts: grave o seu e deixe por lá."],
+      ["house","Espaço kids","Mesinhas, lápis de cor, casinha de boneca, trocador e cadeirões."]
+    ],
+    hoursT:"Horários", today:"hoje", days:["Domingo","Segunda","Terça","Quarta","Quinta","Sexta","Sábado"],
+    dayShort:["domingo","segunda","terça","quarta","quinta","sexta","sábado"], tomorrow:"amanhã",
+    hoursNote:"Não fazemos reservas: o atendimento é por ordem de chegada. Horários podem mudar em feriados e alta temporada.",
+    whereT:"Onde estamos", route:"Como chegar",
+    foot:"Sans souci: sem preocupações.",
+    footSmall:"Sans Souci Café e Confeitaria · Campos do Jordão – SP<br>Cardápio digital: escolha aqui, peça no balcão."
+  },
+  en:{
+    kicker:"Café & Pâtisserie", tagline:"Sans souci, <em>without a care.</em>",
+    place:"Campos do Jordão · since 2011", cta:"Open the menu",
+    steps:[["Choose","from the menu"],["Build","your list"],["Order","at the counter"]],
+    open:c=>`Open now · until ${fmtHour(c)}`, closedLater:o=>`Closed · opens today at ${fmtHour(o)}`, closedTomorrow:(d,o)=>`Closed · opens ${d} at ${fmtHour(o)}`,
+    menu:"Menu", menuSub:"Tap any item to see details and add it to your list.",
+    search:"Search the menu", cancel:"Cancel", allCats:"All categories", cats:"Categories", searchPh:"Search: pistachio, quiche, chocolate…", clear:"Clear search", close:"Close",
+    f:{gf:"Gluten-free",lf:"Lactose-free",sf:"Sugar-free",vg:"Vegan"},
+    tag:{gf:"Gluten-free",lf:"Lactose-free",sf:"Sugar-free",vg:"Vegan"},
+    extrasL:"Add extras (optional)", forL:"with",
+    from:"from", emptyT:"Nothing here…", emptyD:"Try another word or remove a filter.",
+    menuNote:"Prices in Brazilian reais (R$), subject to change. Photos are illustrative. Any allergies or dietary needs? Please tell our team at the counter before ordering.",
+    add:"Add", update:"Update", remove:"Remove", choose:"Choose", noteL:"Note", notePh:"e.g. extra hot, to go…",
+    added:"Added to your list", myOrder:"My list", view:"View list",
+    items:n=>n===1?"1 item":`${n} items`,
+    oTitle:"My list", oSub:"Show this list at the counter to place your order.", total:"Estimated total",
+    oEmpty:"Your list is empty.", oEmptyD:"Add a few treats from the menu.", showCounter:"Show at the counter", clearAll:"Clear",
+    hint:"This list stays on your phone only. Ordering and payment happen at the counter.",
+    tH:"Order for the counter", tFoot:"Thank you, and sans souci!", back:"Back to the menu",
+    houseEy:"The house", houseT:"A little brick castle of lights and vines",
+    story:[
+      "Born in 2011 in Campos do Jordão, Sans Souci began as a small coffee corner inside a shop and soon became the reason people came. Inspired by European cafés and brasseries, it lives in a vine-covered brick building with flowers everywhere.",
+      "The pâtisserie is handmade, the chocolates are produced locally, and the name says it all: sans souci is French for “without a care”."
+    ],
+    award:"Voted the best café in Campos do Jordão",
+    feats:[
+      ["lights","Tunnel of lights","An entrance of branches and flowers that glows with hearts at dusk."],
+      ["piano","Piano","Live music, classical to popular, on special days."],
+      ["lock","Love locks","A wall inspired by the Pont des Arts: engrave yours and leave it."],
+      ["house","Kids’ corner","Little tables, crayons, a dollhouse, changing table and high chairs."]
+    ],
+    hoursT:"Opening hours", today:"today", days:["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+    dayShort:["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], tomorrow:"tomorrow",
+    hoursNote:"No reservations: first come, first served. Hours may change on holidays and in high season.",
+    whereT:"Find us", route:"Get directions",
+    foot:"Sans souci: without a care.",
+    footSmall:"Sans Souci Café e Confeitaria · Campos do Jordão – SP<br>Digital menu: choose here, order at the counter."
+  }
+};
+function fmtHour(h){return h===12?"12 pm":h>12?`${h-12} pm`:`${h} am`}
+
+/* ================= state ================= */
+const S = { lang:"pt", filters:new Set(), q:"", order:new Map() }; // key -> {id,opt,qty,note}
+const $ = (s,r=document)=>r.querySelector(s);
+const $$ = (s,r=document)=>[...r.querySelectorAll(s)];
+const RM = matchMedia("(prefers-reduced-motion: reduce)").matches;
+const ITEMS = new Map(); MENU.forEach(c=>c.items.forEach(it=>ITEMS.set(it.id,{...it,cat:c})));
+const L = ()=>T[S.lang];
+const icon = (n,cls="ico")=>`<svg class="${cls}" aria-hidden="true"><use href="#i-${n}"/></svg>`;
+const money = v => (S.lang==="pt" ? "R$ " + v.toFixed(2).replace(".",",") : "R$ " + v.toFixed(2));
+const esc = s => String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const norm = s => s.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase();
+const minPrice = it => it.opts ? Math.min(...it.opts.map(o=>o.p)) : it.p;
+const lineKey = (id,opt)=>`${id}|${opt??""}`;
+const linePrice = l => { const it=ITEMS.get(l.id); return l.opt!=null ? it.opts[l.opt].p : it.p; };
+const qtyOf = id => [...S.order.values()].filter(l=>l.id===id).reduce((a,l)=>a+l.qty,0);
+
+/* ================= i18n ================= */
+function applyLang(){
+  const t=L();
+  document.documentElement.lang = S.lang==="pt"?"pt-BR":"en";
+  $$("[data-i18n]").forEach(el=>{ el.textContent = t[el.dataset.i18n]; });
+  $$("[data-i18n-html]").forEach(el=>{ el.innerHTML = t[el.dataset.i18nHtml]; });
+  $$("[data-i18n-aria]").forEach(el=>{ el.setAttribute("aria-label", t[el.dataset.i18nAria]); });
+  $$(".lang").forEach(g=>{ g.dataset.lang=S.lang; $$("button",g).forEach(b=>b.setAttribute("aria-pressed", b.dataset.setLang===S.lang)); });
+  $("#q").placeholder = t.searchPh;
+  $$("[data-set-lang]").forEach(b=>b.setAttribute("aria-pressed", b.dataset.setLang===S.lang));
+  $("#steps").innerHTML = t.steps.map(([a,b])=>`<li><b>${a}</b> ${b}</li>`).join("");
+  $("#story").innerHTML = t.story.map(p=>`<p>${p}</p>`).join("");
+  $("#feats").innerHTML = t.feats.map(([i,h,p],k)=>`<div class="feat rv" style="--d:${k*.08}s">${icon(i)}<h4>${h}</h4><p>${p}</p></div>`).join("");
+  renderFilters(); renderMenu(); renderChips(); renderHours(); renderStatus(); renderBar();
+  if (sheetMode==="order") openOrder(true);
+  observeReveals();
+}
+document.addEventListener("click",e=>{
+  const b=e.target.closest("[data-set-lang]"); if(!b||b.dataset.setLang===S.lang) return;
+  S.lang=b.dataset.setLang; closeSheet(); applyLang();
+});
+
+/* ================= status & hours ================= */
+function spNow(){
+  const parts = new Intl.DateTimeFormat("en-US",{timeZone:"America/Sao_Paulo",weekday:"short",hour:"numeric",minute:"numeric",hour12:false}).formatToParts(new Date());
+  const g = k=>parts.find(p=>p.type===k).value;
+  const wd = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"].indexOf(g("weekday"));
+  return {wd, h:(+g("hour"))%24 + (+g("minute"))/60};
+}
+function renderStatus(){
+  const t=L(), {wd,h}=spNow(), [o,c]=HOURS[wd], el=$("#status");
+  let txt, open=false;
+  if(h>=o && h<c){ txt=t.open(c); open=true; }
+  else if(h<o){ txt=t.closedLater(o); }
+  else { const n=(wd+1)%7; txt=t.closedTomorrow(t.tomorrow, HOURS[n][0]); }
+  el.classList.toggle("closed",!open); $("span",el).textContent=txt;
+}
+function renderHours(){
+  const t=L(), {wd}=spNow(), order=[1,2,3,4,5,6,0];
+  const hh = v => S.lang==="pt" ? `${v}h` : fmtHour(v);
+  $("#hours").innerHTML = order.map(d=>`<li class="${d===wd?"today":""}"><span data-today="${t.today}">${t.days[d]}</span><span>${hh(HOURS[d][0])} – ${hh(HOURS[d][1])}</span></li>`).join("");
+}
+
+/* ================= filters & menu ================= */
+const FILTERS = {gf:"wheat", lf:"milk", sf:"cube", vg:"leaf"};
+function renderFilters(){
+  const t=L();
+  const html = Object.keys(FILTERS).map(k=>`<button class="fchip" data-f="${k}" aria-pressed="${S.filters.has(k)}">${icon(FILTERS[k])}${t.f[k]}</button>`).join("");
+  $("#filters").innerHTML = html; $("#barFilters").innerHTML = html;
+}
+const onFilter=e=>{
+  const b=e.target.closest("[data-f]"); if(!b) return;
+  const k=b.dataset.f; S.filters.has(k)?S.filters.delete(k):S.filters.add(k);
+  $$(`[data-f="${k}"]`).forEach(x=>x.setAttribute("aria-pressed",S.filters.has(k)));
+  filterMenu(true); toResults();
+};
+$("#filters").addEventListener("click",onFilter); $("#barFilters").addEventListener("click",onFilter);
+const hl = (txt,q)=>{
+  if(!q) return esc(txt);
+  const n=norm(txt), i=n.indexOf(q); if(i<0) return esc(txt);
+  return esc(txt.slice(0,i))+"<mark>"+esc(txt.slice(i,i+q.length))+"</mark>"+esc(txt.slice(i+q.length));
+};
+const sameOptPrice = it => it.opts && it.opts.every(o=>o.p===it.opts[0].p);
+function priceHTML(it){
+  if(!it.opts) return money(it.p);
+  if(sameOptPrice(it)) return money(it.opts[0].p);
+  return `<small>${L().from} </small>${money(minPrice(it))}`;
+}
+function optsLine(it){
+  if(!it.opts) return "";
+  const same=sameOptPrice(it);
+  return it.opts.map(o=>same?esc(o.l[S.lang]):`${esc(o.l[S.lang])} <b>${money(o.p)}</b>`).join(`<i> · </i>`);
+}
+function imgHTML(file,w,h,cls,alt,eager){
+  if(!file) return "";
+  return `<img class="${cls}" src="${WIX(file,w,h)}" alt="${esc(alt)}" width="${w}" height="${h}" ${eager?"":'loading="lazy"'} decoding="async" onload="this.classList.add('ok')" onerror="this.closest('[data-ph]')?.classList.add('noimg');this.remove()">`;
+}
+function tagsHTML(it){
+  const t=L();
+  return it.tags.map(k=>`<span class="tag">${icon(FILTERS[k])}${t.tag[k]}</span>`).join("");
+}
+function itemHTML(it){
+  const q=norm(S.q.trim());
+  if(it.cat.compact){
+    return `<div class="item xi" data-id="${it.id}">
+      <span class="item-name">${hl(it.n[S.lang],q)}</span>
+      <span class="xi-row"><span class="price">+ ${money(it.p)}</span><span class="ctrl">${ctrlHTML(it)}</span></span></div>`;
+  }
+  const d = it.d ? it.d[S.lang] : "";
+  const tags = tagsHTML(it);
+  return `<article class="item" data-id="${it.id}" tabindex="0" role="button" aria-label="${esc(it.n[S.lang])}">
+    <span class="thumb" data-ph>${icon(it.cat.icon)}${imgHTML(it.i,168,200,"",it.n[S.lang])}</span>
+    <div class="body">
+      <span class="item-name">${hl(it.n[S.lang],q)}</span>
+      ${d?`<p class="item-desc">${hl(d,q)}</p>`:""}
+      ${it.opts?`<p class="item-opts">${optsLine(it)}</p>`:""}
+      <div class="item-foot"><span class="price">${priceHTML(it)}</span>${tags?`<span class="tags">${tags}</span>`:""}</div>
+    </div>
+    <div class="ctrl">${ctrlHTML(it)}</div>
+  </article>`;
+}
+function ctrlHTML(it){
+  const q=qtyOf(it.id), t=L();
+  if(it.cat.compact){
+    if(!q) return `<button class="add sm" data-add="${it.id}" aria-label="${t.add}: ${esc(it.n[S.lang])}">${icon("plus")}</button>`;
+    return `<span class="mini dark"><button data-dec="${it.id}" aria-label="−1">${icon("minus")}</button><output>${q}</output><button data-inc="${it.id}" aria-label="+1">${icon("plus")}</button></span>`;
+  }
+  if(!q || it.opts) return `<button class="add" data-add="${it.id}" aria-label="${t.add}: ${esc(it.n[S.lang])}">${q&&it.opts?`<span class="qn">${q}</span>`:icon("plus")}</button>`;
+  return `<div class="stepper"><button data-inc="${it.id}" aria-label="+1">${icon("plus")}</button><output>${q}</output><button data-dec="${it.id}" aria-label="−1">${icon("minus")}</button></div>`;
+}
+const ROMAN=["I","II","III","IV","V","VI","VII","VIII","IX","X"];
+function renderMenu(){
+  $("#menu").innerHTML = MENU.map((c,ci)=>`
+    <section class="cat${c.compact?" compact":""}" id="cat-${c.id}" data-cat="${c.id}">
+      ${c.cover?`<div class="cover rv" data-ph>${icon(c.icon)}<img src="${WIX(c.cover,1000,560)}" srcset="${WIX(c.cover,640,360)} 640w, ${WIX(c.cover,1000,560)} 1000w, ${WIX(c.cover,1400,700)} 1400w" sizes="(min-width:760px) 724px, 100vw" alt="" loading="lazy" decoding="async" onload="this.classList.add('ok')" onerror="this.closest('[data-ph]').classList.add('noimg');this.remove()"></div>`:""}
+      <div class="cat-h rv">
+        <div class="cat-t"><small>${S.lang==="pt"?`${c.items.length} opções`:`${c.items.length} items`}</small><h3>${c.t[S.lang]}</h3><p>${c.s[S.lang]}</p></div>
+      </div>
+      
+      <div class="items${c.compact?" xgrid":""}">${c.items.map(it=>itemHTML(ITEMS.get(it.id))).join("")}</div>
+    </section>`).join("");
+  $$("#menu .item").forEach((el,i)=>{ el.classList.add("rv"); el.style.setProperty("--d", (i%3*.06)+"s"); });
+  filterMenu(false);
+}
+function hayOf(it){
+  if(!it._hay) it._hay = norm([it.n.pt,it.n.en,it.d?.pt,it.d?.en,it.x?.pt,it.x?.en,...(it.opts||[]).flatMap(o=>[o.l.pt,o.l.en]),it.cat.t.pt,it.cat.t.en].filter(Boolean).join(" "));
+  return it._hay;
+}
+function filterMenu(user){
+  const q=norm(S.q.trim());
+  let any=false;
+  if(user){
+    $$("#menu .rv").forEach(el=>el.classList.add("on"));
+    $$("#menu .item").forEach(el=>{
+      const it=ITEMS.get(el.dataset.id);
+      $(".item-name",el).innerHTML=hl(it.n[S.lang],q);
+      const d=$(".item-desc",el); if(d) d.innerHTML=hl(it.d[S.lang],q);
+    });
+  }
+  const filtering = q || S.filters.size;
+  $$(".cat").forEach(sec=>{
+    let vis=0;
+    $$(".item",sec).forEach(el=>{
+      const it=ITEMS.get(el.dataset.id);
+      const ok=(!q||hayOf(it).includes(q)) && [...S.filters].every(f=>it.tags.includes(f));
+      el.classList.toggle("hide",!ok); if(ok) vis++;
+    });
+    sec.classList.toggle("hide",!vis);
+    sec.classList.toggle("filtering",!!filtering);
+    if(vis) any=true;
+  });
+  $("#empty").classList.toggle("show",!any);
+  $("#searchBox").classList.toggle("has",!!S.q);
+  renderChips();
+}
+const BAR=$("#bar"), MQD=matchMedia("(min-width:900px)");
+const barBottom=()=>Math.max(0,BAR.getBoundingClientRect().bottom);
+function toResults(){
+  if(!(S.q.trim()||S.filters.size)) return;
+  const top=$("#menu").getBoundingClientRect().top, want=barBottom()+8;
+  if(Math.abs(top-want)>4) scrollTo({top:top+scrollY-want,behavior:"auto"});
+}
+function openSearch(){
+  const q=$("#q");
+  BAR.classList.add("searching","show"); BAR.classList.remove("slim");
+  q.focus({preventScroll:true});
+  const top=$("#menu").getBoundingClientRect().top+scrollY-(BAR.offsetHeight+8);
+  if(scrollY<top-4 || scrollY>top+4) scrollTo({top,behavior:"auto"});
+  requestAnimationFrame(syncBar);
+}
+function closeSearch(){
+  S.q=""; $("#q").value=""; S.filters.clear(); $$("[data-f]").forEach(x=>x.setAttribute("aria-pressed","false"));
+  BAR.classList.remove("searching"); filterMenu(true); syncBar();
+}
+let qT; $("#q").addEventListener("input",e=>{ S.q=e.target.value; clearTimeout(qT); qT=setTimeout(()=>{filterMenu(true);toResults();},120); });
+$("#q").addEventListener("keydown",e=>{ if(e.key==="Enter") e.target.blur(); if(e.key==="Escape") closeSearch(); });
+$("#qClear").addEventListener("click",()=>{ S.q=""; $("#q").value=""; filterMenu(true); $("#q").focus(); });
+$("#qCancel").addEventListener("click",closeSearch);
+$("#barSearch").addEventListener("click",openSearch);
+$("#openSearch").addEventListener("click",openSearch);
+
+$("#menu").addEventListener("click",e=>{
+  const add=e.target.closest("[data-add]"), inc=e.target.closest("[data-inc]"), dec=e.target.closest("[data-dec]");
+  if(add){ e.stopPropagation(); const it=ITEMS.get(add.dataset.add);
+    if(!it.cat.compact && (it.opts || qtyOf(it.id))) return openItem(it.id);
+    addLine(it.id,null,1,"",add); return; }
+  if(inc){ e.stopPropagation(); addLine(inc.dataset.inc,null,1,"",inc); return; }
+  if(dec){ e.stopPropagation(); decItem(dec.dataset.dec); return; }
+  const card=e.target.closest(".item"); if(!card) return;
+  const it=ITEMS.get(card.dataset.id);
+  if(it.cat.compact){ const b=$("[data-add],[data-inc]",card); addLine(it.id,null,1,"",b||card); return; }
+  openItem(it.id);
+});
+$("#menu").addEventListener("keydown",e=>{
+  if((e.key==="Enter"||e.key===" ") && e.target.matches("article.item")){ e.preventDefault(); openItem(e.target.dataset.id); }
+});
+
+/* ================= abas & scrollspy ================= */
+function renderChips(){
+  const box=$("#chips");
+  $$(".chip",box).forEach(c=>c.remove());
+  MENU.forEach(c=>{
+    if($(`#cat-${c.id}`)?.classList.contains("hide")) return;
+    const b=document.createElement("button"); b.className="chip"; b.dataset.go=c.id; b.textContent=(c.nav||c.t)[S.lang]; b.title=c.t[S.lang];
+    box.appendChild(b);
+  });
+  requestAnimationFrame(()=>{ spy(true); fades(); });
+}
+function fades(){
+  const c=$("#chips"), max=c.scrollWidth-c.clientWidth;
+  c.classList.toggle("fl", c.scrollLeft>4); c.classList.toggle("fr", c.scrollLeft<max-4);
+}
+$("#chips").addEventListener("scroll",fades,{passive:true});
+let lockUntil=0;
+function jumpTo(id){
+  const el=$(`#cat-${id}`); if(!el) return;
+  const target=el.getBoundingClientRect().top+scrollY;
+  const down=target>scrollY;
+  const mobile=!MQD.matches;
+  if(mobile && !BAR.classList.contains("searching")) BAR.classList.toggle("slim",down);
+  const off = (mobile && down) ? $(".tabs").offsetHeight : BAR.offsetHeight;
+  lockUntil=performance.now()+900;
+  scrollTo({top:target-off-6,behavior:RM?"auto":"smooth"});
+}
+$("#chips").addEventListener("click",e=>{ const b=e.target.closest("[data-go]"); if(b) jumpTo(b.dataset.go); });
+let activeCat=null;
+function spy(force){
+  const line=barBottom()+48;
+  let cur=null;
+  $$(".cat:not(.hide)").forEach(s=>{ if(s.getBoundingClientRect().top<=line) cur=s.dataset.cat; });
+  if(!cur) cur=$(".cat:not(.hide)")?.dataset.cat;
+  const chips=$$("#chips .chip"), ind=$("#chipInd");
+  chips.forEach(c=>{ c.classList.toggle("active",c.dataset.go===cur); c.setAttribute("aria-current", c.dataset.go===cur?"true":"false"); });
+  const a=chips.find(c=>c.dataset.go===cur);
+  if(!a){ ind.style.width="0"; return; }
+  ind.style.width=(a.offsetWidth-24)+"px"; ind.style.transform=`translateX(${a.offsetLeft+12}px)`;
+  if(cur!==activeCat || force){ activeCat=cur; const box=$("#chips"); box.scrollTo({left:a.offsetLeft-box.clientWidth/2+a.offsetWidth/2,behavior:(RM||force)?"auto":"smooth"}); }
+}
+// barra: aparece depois do topo; no celular, a linha de cima recolhe ao rolar para baixo
+function syncBar(){ document.documentElement.style.setProperty("--barB", barBottom()+"px"); }
+let ticking=false, lastY=scrollY;
+addEventListener("scroll",()=>{
+  if(ticking) return; ticking=true;
+  requestAnimationFrame(()=>{
+    ticking=false;
+    const y=scrollY, heroEnd=$("#hero").offsetHeight*0.72;
+    const searching=BAR.classList.contains("searching");
+    BAR.classList.toggle("show", y>heroEnd || searching);
+    if(!MQD.matches && !searching && performance.now()>lockUntil){
+      if(y>lastY+8 && y>heroEnd+120) BAR.classList.add("slim");
+      else if(y<lastY-8) BAR.classList.remove("slim");
+    }
+    if(y<heroEnd) BAR.classList.remove("slim");
+    lastY=y;
+    spy(); syncBar();
+  });
+},{passive:true});
+function setBarH(){ syncBar(); fades(); }
+addEventListener("resize",()=>requestAnimationFrame(()=>{ if(MQD.matches) BAR.classList.remove("slim"); setBarH(); spy(true); }));
+
+/* categorias em lista (celular) */
+function openCats(){
+  const t=L();
+  $("#sheetBody").innerHTML=`<h2 class="o-title" id="sheetTitle">${t.cats}</h2>
+    <ul class="cat-list">${MENU.map(c=>`<li><button data-cat-go="${c.id}">
+      <span class="cl-th" data-ph>${icon(c.icon)}${c.cover?imgHTML(c.cover,112,112,"",""):""}</span>
+      <span class="cl-t"><b>${c.t[S.lang]}</b><small>${c.s[S.lang]}</small></span>
+      <span class="cl-n">${c.items.length}</span></button></li>`).join("")}</ul>`;
+  $("#sheetFoot").innerHTML="";
+  openSheet("cats");
+}
+$("#catsBtn").addEventListener("click",openCats);
+$("#sheetBody").addEventListener("click",e=>{
+  const b=e.target.closest("[data-cat-go]"); if(!b || sheetMode!=="cats") return;
+  const id=b.dataset.catGo;
+  if(S.q||S.filters.size){ S.filters.clear(); renderFilters(); closeSearch(); }
+  closeSheet(); setTimeout(()=>jumpTo(id),60);
+});
+
+/* ================= order ================= */
+// linha: {id, opt, qty, note, forId}
+function addLine(id,opt,qty,note,fromEl,forId){
+  const k=lineKey(id,opt)+(forId?`>${forId}`:""), cur=S.order.get(k);
+  if(cur){ cur.qty+=qty; if(note) cur.note=note; }
+  else S.order.set(k,{id,opt,qty,note:note||"",forId:forId||null});
+  afterOrderChange(id);
+  if(fromEl){ flyToBag(fromEl); toast(L().added); }
+}
+function changeQty(k,d){
+  const l=S.order.get(k); if(!l) return;
+  l.qty+=d; if(l.qty<=0) S.order.delete(k);
+  afterOrderChange(l.id);
+}
+function decItem(id){
+  const keys=[...S.order.keys()].filter(k=>S.order.get(k).id===id);
+  if(!keys.length) return;
+  const k = keys.includes(lineKey(id,null)) ? lineKey(id,null) : keys[keys.length-1];
+  changeQty(k,-1);
+}
+function afterOrderChange(id){
+  if(id){ const it=ITEMS.get(id); $$(`.item[data-id="${id}"] .ctrl`).forEach(c=>c.innerHTML=ctrlHTML(it)); }
+  renderBar();
+  if(sheetMode==="order") renderOrderBody();
+}
+function totals(){ let n=0,s=0; S.order.forEach(l=>{n+=l.qty; s+=l.qty*linePrice(l);}); return {n,s}; }
+function renderBar(){
+  const {n,s}=totals(), t=L();
+  $("#bagN").textContent=n;
+  $("#obarTotal").textContent=`${t.items(n)} · ${money(s)}`;
+  $("#obar").classList.toggle("show", n>0 && !sheetMode);
+}
+function bump(){ const b=$("#bag"); b.classList.remove("bump"); void b.offsetWidth; b.classList.add("bump"); }
+function flyToBag(el){
+  const r=el.getBoundingClientRect(), x0=r.left+r.width/2, y0=r.top+r.height/2;
+  sparkle(x0,y0);
+  if(RM){ bump(); return; }
+  setTimeout(()=>{
+    const ob=$("#obar"), bg=$("#bag"), x1=ob.offsetLeft+bg.offsetLeft+bg.offsetWidth/2, y1=ob.offsetTop+bg.offsetTop+bg.offsetHeight/2;
+    const d=document.createElement("i"); d.className="fly"; d.style.left=x0+"px"; d.style.top=y0+"px"; document.body.appendChild(d);
+    const dx=x1-x0, dy=y1-y0;
+    d.animate([
+      {transform:"translate(0,0) scale(1)"},
+      {transform:`translate(${dx*.35}px,${dy*.35-90}px) scale(1.4)`,offset:.4},
+      {transform:`translate(${dx}px,${dy}px) scale(.4)`,opacity:.6}
+    ],{duration:700,easing:"cubic-bezier(.5,0,.4,1)"}).onfinish=()=>{d.remove();bump();};
+  }, 60);
+}
+function sparkle(x,y){
+  if(RM) return;
+  for(let i=0;i<9;i++){
+    const s=document.createElement("span"); s.className="spk"; s.innerHTML=icon("spark","ico");
+    s.style.left=x+"px"; s.style.top=y+"px"; document.body.appendChild(s);
+    const a=(i/9)*Math.PI*2+Math.random()*.4, r=26+Math.random()*26, sc=.6+Math.random()*.9;
+    s.animate([{transform:"translate(0,0) scale(0)",opacity:1},{transform:`translate(${Math.cos(a)*r}px,${Math.sin(a)*r}px) scale(${sc}) rotate(90deg)`,opacity:0}],{duration:650+Math.random()*250,easing:"cubic-bezier(.2,.7,.2,1)"}).onfinish=()=>s.remove();
+  }
+}
+let toastT;
+function toast(msg){ const el=$("#toast"); $("span",el).textContent=msg; el.classList.add("show"); clearTimeout(toastT); toastT=setTimeout(()=>el.classList.remove("show"),1600); }
+
+/* ================= sheet ================= */
+let sheetMode=null, lastFocus=null;
+function openSheet(mode){
+  if(!sheetMode) lastFocus=document.activeElement;
+  sheetMode=mode;
+  $("#sheet").classList.toggle("has-photo", mode==="item-photo");
+  $("#scrim").classList.add("show"); $("#sheet").classList.add("show");
+  $("#obar").classList.remove("show");
+  $("#sheetBody").scrollTop=0;
+  document.body.style.overflow="hidden";
+  setTimeout(()=>$("#sheetX").focus({preventScroll:true}),60);
+}
+function closeSheet(){
+  if(!sheetMode) return;
+  sheetMode=null;
+  $("#scrim").classList.remove("show"); $("#sheet").classList.remove("show");
+  $("#sheet").style.transform="";
+  document.body.style.overflow="";
+  renderBar();
+  lastFocus?.focus?.({preventScroll:true});
+}
+$("#scrim").addEventListener("click",closeSheet);
+$("#sheetX").addEventListener("click",closeSheet);
+addEventListener("keydown",e=>{
+  if(e.key!=="Escape") return;
+  if($("#ticketV").classList.contains("show")) return closeTicket();
+  closeSheet();
+});
+(()=>{ // arrastar para fechar
+  const sh=$("#sheet"), g=$("#grab"); let y0=null, dy=0;
+  g.addEventListener("pointerdown",e=>{ y0=e.clientY; dy=0; sh.classList.add("drag"); g.setPointerCapture(e.pointerId); });
+  g.addEventListener("pointermove",e=>{ if(y0==null) return; dy=Math.max(0,e.clientY-y0); sh.style.transform=`translateY(${dy}px)`; });
+  const end=()=>{ if(y0==null) return; y0=null; sh.classList.remove("drag"); if(dy>110) closeSheet(); else sh.style.transform=""; };
+  g.addEventListener("pointerup",end); g.addEventListener("pointercancel",end);
+})();
+
+const EXTRAS = () => MENU.find(c=>c.compact).items.map(x=>ITEMS.get(x.id));
+function openItem(id){
+  const it=ITEMS.get(id), t=L();
+  const existing = !it.opts ? S.order.get(lineKey(id,null)) : null;
+  let opt = it.opts ? 0 : null, qty = existing ? existing.qty : 1;
+  const note = existing ? existing.note : "";
+  const extras = new Set();
+  const offerExtras = EXTRA_CATS.includes(it.cat.id) && !existing;
+  const sparks = Array.from({length:6},(_,i)=>`<span class="spark" style="left:${14+i*14}%;top:${18+((i*37)%50)}%;animation-delay:${i*.35}s">${icon("spark","ico")}</span>`).join("");
+  $("#sheetBody").innerHTML = `
+    ${it.i
+      ? `<div class="d-photo" data-ph>${icon(it.cat.icon)}${imgHTML(it.i,900,720,"",it.n[S.lang],true)}</div>`
+      : `<div class="d-art">${icon(it.cat.icon)}</div>`}
+    <p class="d-cat">${it.cat.t[S.lang]}</p>
+    <h2 class="d-name" id="sheetTitle">${esc(it.n[S.lang])}</h2>
+    ${it.d?`<p class="d-desc">${esc(it.d[S.lang])}</p>`:""}
+    ${it.tags.length?`<div class="tags" style="justify-content:center;margin-top:12px">${tagsHTML(it)}</div>`:""}
+    ${it.x?`<div class="d-x">${esc(it.x[S.lang]).split("\n").map(l=>`<p>${l.replace(/^([^:]{3,22}):/,"<b>$1:</b>")}</p>`).join("")}</div>`:""}
+    ${it.opts?`<div class="d-sec"><span>${t.choose}</span><div class="opts" role="radiogroup">${it.opts.map((o,i)=>`<button class="opt" role="radio" data-opt="${i}" aria-checked="${i===0}"><i></i><span>${esc(o.l[S.lang])}</span><b>${money(o.p)}</b></button>`).join("")}</div></div>`:""}
+    ${offerExtras?`<div class="d-sec"><span>${t.extrasL}</span><div class="extras">${EXTRAS().map(x=>`<button class="xchip" data-x="${x.id}" aria-pressed="false">${icon("plus")}${esc(x.n[S.lang])} <b>${money(x.p)}</b></button>`).join("")}</div></div>`:""}
+    <div class="d-sec"><span>${t.noteL}</span><textarea id="dNote" placeholder="${t.notePh}" maxlength="120">${esc(note)}</textarea></div>`;
+  const foot=$("#sheetFoot");
+  const draw=()=>{
+    const unit = (it.opts ? it.opts[opt].p : it.p) + [...extras].reduce((a,x)=>a+ITEMS.get(x).p,0);
+    const label = existing ? (qty===0 ? t.remove : t.update) : t.add;
+    foot.innerHTML = `<div class="foot-row">
+      <div class="qty"><button data-q="-1" aria-label="−1">${icon("minus")}</button><output>${qty}</output><button data-q="1" aria-label="+1">${icon("plus")}</button></div>
+      <button class="big" id="dAdd"><span>${label}</span><span>${money(unit*Math.max(qty,1))}</span></button></div>`;
+  };
+  draw();
+  $("#sheetBody").onclick=e=>{
+    const o=e.target.closest("[data-opt]");
+    if(o){ opt=+o.dataset.opt; $$(".opt",$("#sheetBody")).forEach(b=>b.setAttribute("aria-checked", b===o)); draw(); return; }
+    const x=e.target.closest("[data-x]");
+    if(x){ const k=x.dataset.x; extras.has(k)?extras.delete(k):extras.add(k); x.setAttribute("aria-pressed",extras.has(k)); x.innerHTML=x.innerHTML.replace(/#i-(plus|check)/, extras.has(k)?"#i-check":"#i-plus"); draw(); }
+  };
+  foot.onclick=e=>{
+    const q=e.target.closest("[data-q]");
+    if(q){ qty=Math.max(existing?0:1, Math.min(20, qty + +q.dataset.q)); draw(); return; }
+    if(!e.target.closest("#dAdd")) return;
+    const n=$("#dNote").value.trim(), btn=$("#dAdd");
+    sparkle(...center(btn));
+    if(existing){
+      if(qty===0) S.order.delete(lineKey(id,null)); else { existing.qty=qty; existing.note=n; }
+      closeSheet(); afterOrderChange(id); return;
+    }
+    const k=lineKey(id,opt), cur=S.order.get(k);
+    if(cur){ cur.qty+=qty; if(n) cur.note=n; } else S.order.set(k,{id,opt,qty,note:n,forId:null});
+    extras.forEach(x=>addLine(x,null,qty,"",null,id));
+    closeSheet(); afterOrderChange(id);
+    const ctrl=$(`.item[data-id="${id}"] .ctrl`);
+    setTimeout(()=>{ if(ctrl) flyToBag(ctrl); toast(t.added); }, 120);
+  };
+  openSheet(it.i ? "item-photo" : "item");
+}
+const center = el=>{ const r=el.getBoundingClientRect(); return [r.left+r.width/2, r.top+r.height/2]; };
+
+function openOrder(keep){
+  renderOrderBody();
+  if(!keep) openSheet("order");
+}
+function orderedLines(){
+  // agrupa adicionais logo abaixo do item a que pertencem
+  const all=[...S.order.entries()], main=all.filter(([,l])=>!l.forId), out=[];
+  main.forEach(e=>{ out.push(e); all.filter(([,l])=>l.forId===e[1].id).forEach(x=>{ if(!out.includes(x)) out.push(x); }); });
+  all.forEach(e=>{ if(!out.includes(e)) out.push(e); });
+  return out;
+}
+function renderOrderBody(){
+  const t=L(), {n,s}=totals();
+  const lines=orderedLines();
+  $("#sheetBody").innerHTML = `
+    <h2 class="o-title" id="sheetTitle">${t.oTitle}</h2><p class="o-sub">${t.oSub}</p>
+    ${lines.length? `<ul class="o-list">${lines.map(([k,l],i)=>{
+      const it=ITEMS.get(l.id), unit=linePrice(l);
+      const thumb = it.i ? `<span class="o-th" data-ph>${icon(it.cat.icon)}${imgHTML(it.i,96,96,"",it.n[S.lang],true)}</span>` : `<span class="o-th plus">${icon(l.forId?"plus":it.cat.icon)}</span>`;
+      return `<li class="o-line${l.forId?" sub":""}" style="animation-delay:${i*.04}s" data-k="${esc(k)}">
+        ${thumb}
+        <div class="o-main"><span class="o-name">${esc(it.n[S.lang])}</span>
+        <span class="o-meta">${l.opt!=null?esc(it.opts[l.opt].l[S.lang])+" · ":""}${l.forId?`${t.forL} ${esc(ITEMS.get(l.forId).n[S.lang])} · `:""}${money(unit)}</span>
+        ${l.note?`<span class="o-note">“${esc(l.note)}”</span>`:""}</div>
+        <div class="o-right"><span class="price">${money(unit*l.qty)}</span>
+          <div class="mini"><button data-ok="-1" aria-label="−1">${icon(l.qty===1?"x":"minus")}</button><output>${l.qty}</output><button data-ok="1" aria-label="+1">${icon("plus")}</button></div></div>
+      </li>`;}).join("")}</ul>`
+    : `<div class="o-empty">${icon("bag")}<b style="display:block;font-size:22px;color:var(--ink)">${t.oEmpty}</b>${t.oEmptyD}</div>`}
+    <p class="o-hint">${t.hint}</p>`;
+  $("#sheetFoot").innerHTML = lines.length ? `
+    <div class="o-total"><span>${t.total} · ${t.items(n)}</span><b>${money(s)}</b></div>
+    <div class="foot-row"><button class="big ghost" id="oClear">${t.clearAll}</button><button class="big gold" id="oShow" style="justify-content:center;gap:10px">${icon("ticket")}<span>${t.showCounter}</span></button></div>`
+    : `<div class="foot-row"><button class="big" id="oBack" style="justify-content:center">${t.back}</button></div>`;
+}
+$("#sheetBody").addEventListener("click",e=>{
+  if(sheetMode!=="order") return;
+  const b=e.target.closest("[data-ok]"); if(!b) return;
+  const li=b.closest(".o-line"), k=li.dataset.k, l=S.order.get(k), d=+b.dataset.ok;
+  if(d<0 && l.qty===1 && !RM){ li.classList.add("out"); setTimeout(()=>changeQty(k,-1),300); }
+  else changeQty(k,d);
+});
+$("#sheetFoot").addEventListener("click",e=>{
+  if(sheetMode!=="order") return;
+  if(e.target.closest("#oClear")){ const ids=[...new Set([...S.order.values()].map(l=>l.id))]; S.order.clear(); ids.forEach(id=>afterOrderChange(id)); }
+  if(e.target.closest("#oBack")) closeSheet();
+  if(e.target.closest("#oShow")) openTicket();
+});
+$("#openOrder").addEventListener("click",()=>openOrder());
+$("#bag").addEventListener("click",()=>openOrder());
+
+/* ================= counter ticket ================= */
+function openTicket(){
+  const t=L(), {s}=totals();
+  const time=new Intl.DateTimeFormat(S.lang==="pt"?"pt-BR":"en-GB",{timeZone:"America/Sao_Paulo",hour:"2-digit",minute:"2-digit",day:"2-digit",month:"short"}).format(new Date());
+  $("#ticket").innerHTML=`
+    <span class="emblem"></span>
+    <p class="t-h">${t.tH}</p><p class="t-time">${time}</p>
+    <ul class="t-list">${orderedLines().map(([,l])=>{const it=ITEMS.get(l.id);return `<li class="${l.forId?"sub":""}"><span class="t-q">${l.qty}×</span><span class="t-n">${l.forId?"+ ":""}${esc(it.n.pt)}${l.opt!=null?`<small>${esc(it.opts[l.opt].l.pt)}</small>`:""}${l.forId?`<small>no ${esc(ITEMS.get(l.forId).n.pt)}</small>`:""}${l.note?`<em>“${esc(l.note)}”</em>`:""}</span></li>`}).join("")}</ul>
+    <div class="t-sum"><span>${t.total}</span><b>${money(s)}</b></div>
+    <p class="t-foot">${t.tFoot}</p>`;
+  $("#ticketV").classList.add("show");
+  $("#ticketBack").focus({preventScroll:true});
+  try{ navigator.wakeLock?.request("screen").then(w=>{window.__wl=w}).catch(()=>{}); }catch(_){}
+}
+function closeTicket(){ $("#ticketV").classList.remove("show"); try{window.__wl?.release()}catch(_){} $("#oShow")?.focus({preventScroll:true}); }
+$("#ticketBack").addEventListener("click",closeTicket);
+
+/* ================= reveal ================= */
+let io;
+function observeReveals(){
+  io?.disconnect();
+  if(RM || !("IntersectionObserver" in window)){ $$(".rv").forEach(e=>e.classList.add("on")); return; }
+  io=new IntersectionObserver(es=>es.forEach(en=>{ if(en.isIntersecting){ en.target.classList.add("on"); io.unobserve(en.target);} }),{rootMargin:"0px 0px -8% 0px",threshold:.05});
+  $$(".rv:not(.on)").forEach(e=>io.observe(e));
+}
+
+/* ================= luzes sutis ================= */
+(()=>{
+  const cv=$("#lights"), ctx=cv.getContext("2d"), hero=$("#hero");
+  let W,H,parts=[],run=true,raf;
+  const mk=init=>({x:Math.random()*W, y:init?Math.random()*H:H+10, r:Math.random()*1.1+.5, vy:-(Math.random()*.12+.04), ph:Math.random()*6.28, sp:Math.random()*.012+.004});
+  function size(){
+    const dpr=Math.min(devicePixelRatio||1,2); W=hero.clientWidth; H=hero.clientHeight;
+    cv.width=W*dpr; cv.height=H*dpr; ctx.setTransform(dpr,0,0,dpr,0,0);
+    parts=Array.from({length:W<700?7:12},()=>mk(true));
+  }
+  function frame(){
+    if(!run) return;
+    ctx.clearRect(0,0,W,H);
+    for(const p of parts){
+      p.y+=p.vy; p.ph+=p.sp; if(p.y<-10) Object.assign(p,mk(false));
+      const a=.18+.32*(.5+.5*Math.sin(p.ph)), R=p.r*4;
+      const g=ctx.createRadialGradient(p.x,p.y,0,p.x,p.y,R);
+      g.addColorStop(0,`rgba(240,220,166,${a})`); g.addColorStop(.4,`rgba(240,220,166,${a*.25})`); g.addColorStop(1,"rgba(240,220,166,0)");
+      ctx.fillStyle=g; ctx.beginPath(); ctx.arc(p.x,p.y,R,0,7); ctx.fill();
+    }
+    raf=requestAnimationFrame(frame);
+  }
+  size(); addEventListener("resize",()=>{clearTimeout(size.t); size.t=setTimeout(size,150);});
+  if(RM){ run=true; frame(); cancelAnimationFrame(raf); return; }
+  new IntersectionObserver(([e])=>{ run=e.isIntersecting; if(run){cancelAnimationFrame(raf); raf=requestAnimationFrame(frame);} }).observe(hero);
+})();
+
+/* ================= boot ================= */
+applyLang(); setBarH();
+setInterval(()=>{renderStatus();},60000);
+function lift(){ if(document.body.classList.contains("ready")) return; $("#veil").classList.add("gone"); document.body.classList.add("ready"); }
+addEventListener("load",()=>setTimeout(lift, RM?0:900));
+setTimeout(lift, 2600);
+</script>
+</body>
+</html>
